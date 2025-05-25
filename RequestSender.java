@@ -2,6 +2,7 @@
 import java.net.http.*;
 import java.util.*;
 import java.io.*;
+//import Gson.jar;
 //import java.net.http.URI;
 import java.net.URI;
 
@@ -9,7 +10,7 @@ public class RequestSender {
     //boolean exists;
     public RequestSender() {
     }
-    public JSONObject FetchItemData(String item) {
+    public HttpResponse FetchItemData(String item) {
         String api_key = new Secrets().getAPIKey();
         HttpClient client = HttpClient.newHttpClient();
         try {
@@ -28,17 +29,32 @@ public class RequestSender {
             }
             System.out.println("request " + request);
             System.out.println("response " + response);
-            JsonReader reader = Json.createReader(response);
-            JsonObject obj = reader.readObject();
-            reader.close(); 
-            return obj;
+            //Gson gson = new Gson();
+            //MarketItem output = gson.fromJson(response);
+            //System.out.println(output)
+            return response;
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
         
+
         return null;
     }
     public void FetchMarketData() {
+
+    }
+    public void ItemToFile(String item) {
+        InputStream r = FetchItemData(item);
+        try {
+            PrintWriter writer = new PrintWriter(item);
+            Scanner processor = new Scanner(r);
+            while (processor.hasNextLine()) {
+                System.out.println(processor.nextLine());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
