@@ -1,4 +1,4 @@
-//package starscape_market;
+package com.market.app;
 public class ListingInfo {
     double price;
     long amount;

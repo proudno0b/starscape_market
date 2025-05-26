@@ -1,6 +1,5 @@
-//package starscape_market;
-import java.net.*;
-import java.util.*;
+package com.market.app;
+
 class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
