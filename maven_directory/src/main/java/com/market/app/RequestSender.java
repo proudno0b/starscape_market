@@ -24,8 +24,7 @@ public class RequestSender {
             .build();
             HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream());
             if (response.statusCode() == 200) {
-                // do something
-                //List<>
+                return Util.toItem(response.body());
             } else {
                 System.out.println("Request was bad " + response.statusCode());
             }

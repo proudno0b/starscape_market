@@ -1,4 +1,4 @@
-package com.market.app;
+package com.mycompany.app;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
