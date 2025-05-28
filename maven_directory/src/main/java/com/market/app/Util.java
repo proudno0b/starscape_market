@@ -61,5 +61,12 @@ public class Util {
         }
         return null;
     }
-} 
+    public static double getBuyOrderPrice(RealMarketItem item) {
+        Map<String,Object> items = item.getFieldsMap();
+        ArrayList<Object> itemName = new ArrayList<>(items.values());
+        for (Object o : itemName) {
+            System.out.println(o);
+        }
+        return -1;
+    } 
 
