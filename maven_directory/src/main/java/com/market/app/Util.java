@@ -13,16 +13,27 @@ public class Util {
 //    //adapted from medium article
 
     public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
-    public static MarketItem toItem(InputStream inputStream) {
+    
+    public static MarketItem2 toItem(InputStream inputStream) {
         try {
-            return OBJECT_MAPPER.readValue(inputStream, MarketItem.class);
+            //OBJECT_MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+            return OBJECT_MAPPER.readValue(inputStream, MarketItem2.class);
         } catch (IOException e) {
             System.out.println("there was an IO exception in util to list method");
             e.printStackTrace();
         }
         return null;
     }
-    public static void test() {
+    public static MarketItem2 readJsonFile(String s) {
+        
+        try {
+        File f = new File("TestHorizon.json");
+        return OBJECT_MAPPER.readValue(f,MarketItem2.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
 
     }
-}
+} 
+

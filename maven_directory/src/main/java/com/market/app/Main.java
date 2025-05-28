@@ -6,6 +6,8 @@ class Main {
         //System.out.println("Hello world!");
         System.out.println("wtf");
         RequestSender sender = new RequestSender();
-        sender.FetchItemData("Horizon");
+        MarketItem2 sigma = Util.readJsonFile("/TestHorizon.json");
+        System.out.println(sigma);
+        //sender.FetchItemData("Horizon");
     }
 }

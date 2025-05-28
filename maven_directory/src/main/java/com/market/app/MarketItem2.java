@@ -1,14 +1,15 @@
 package com.market.app;
 import java.util.*;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-@JsonIgnoreProperties
-public record MarketItem (
+public record MarketItem2 (
+    Horizon items
+) {
+    public record Horizon (
     String name,
     Integer _id,
     String time_scanned,
     List<ListingInfo> buy,
     List<ListingInfo> sell
-) {
+    ) {
     public record ListingInfo(
         double price,
         Integer amount,
@@ -19,5 +20,6 @@ public record MarketItem (
             String name,
             String displayName
         ) {}
-    }
+    } 
+}
 }

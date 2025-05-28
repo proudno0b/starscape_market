@@ -1,0 +1,40 @@
+{
+  "items": {
+    "Horizon": {
+      "name": "Horizon",
+      "_id": 109930,
+      "time_scanned": "2025-05-28T01:23:32.362Z",
+      "buy": [
+        {
+          "price": 452000,
+          "amount": 1,
+          "vendor": {
+            "_id": 528347220,
+            "name": "NAHRO7",
+            "displayName": "NAHRO7"
+          }
+        },
+        {
+          "price": 451001,
+          "amount": 1,
+          "vendor": {
+            "_id": 5835604076,
+            "name": "PlentiFinances2",
+            "displayName": "PlentiFinances2"
+          }
+        }
+      ],
+      "sell": [
+        {
+          "price": 780200,
+          "amount": 1,
+          "vendor": {
+            "_id": 131072758,
+            "name": "khaiboom999",
+            "displayName": "khaiboom999"
+          }
+        }
+      ]
+    }
+  }
+}
