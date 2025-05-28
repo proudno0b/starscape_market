@@ -37,7 +37,8 @@ public class RequestSender {
         
         return null;
     }
-    public test fetchTestObj(String asdasd) {
+    public RealMarketItem fetchRealMarketItem(String item) {
+        String api_key = new Secrets().getAPIKey();
         try {
             HttpClient client = HttpClient.newHttpClient();
 

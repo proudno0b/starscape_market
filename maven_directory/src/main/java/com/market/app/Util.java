@@ -32,9 +32,9 @@ public class Util {
         }
         return null;
     }
-    public static test toTestObj(InputStream inputStream) {
+    public static RealMarketItem toRealMarketItem(InputStream inputStream) {
         try {
-            return OBJECT_MAPPER.readValue(inputStream,test.class);
+            return OBJECT_MAPPER.readValue(inputStream,RealMarketItem.class);
         } catch (Exception e) {
             e.printStackTrace();
         }

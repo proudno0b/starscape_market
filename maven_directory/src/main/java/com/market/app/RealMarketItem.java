@@ -1,0 +1,27 @@
+package com.market.app;
+import java.util.*;
+
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+// using method taken from https://stackoverflow.com/questions/72057546/how-to-deserialize-this-dynamic-keys-json-to-java-custom-pojo-using-jackson
+public class RealMarketItem {
+        private Map<String, Object> dynamicKeys = new HashMap<>();
+    
+    @JsonAnySetter
+    public void setUnknownFields(String name, Object value) {
+        dynamicKeys.put(name, value);
+    }
+    
+    public Map<String, Object> getFieldsMap() {
+        return dynamicKeys;
+    }
+    public String toString() {
+        String out = "";
+        for (String s : dynamicKeys.keySet()) {
+                out += (s + " = " + dynamicKeys.get(s)) ;
+        }
+        return out;
+    }
+}
