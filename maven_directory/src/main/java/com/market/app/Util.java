@@ -64,10 +64,19 @@ public class Util {
     public static double getBuyOrderPrice(RealMarketItem item) {
         Map<String,Object> items = item.getFieldsMap();
         ArrayList<Object> itemName = new ArrayList<>(items.values());
-        for (Object o : itemName) {
-            System.out.println(o);
+        Object real_item = itemName.get(0);
+        Object buyOrders = real_item.buy();
+        ArrayList<double> prices = new ArrayList<double>();
+        for (Object listing : buyOrders) {
+            prices.add(listing.price());
         }
-        return -1;
+        int lowestindex = 0;
+        for (int i=0;i<prices.size();i++) {
+            if (prices.get(i) < prices.get(lowestindex)) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
     } 
 }
 

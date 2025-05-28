@@ -10,7 +10,7 @@ class Main {
         //MarketItem2 sigma = Util.readJsonFile("/TestHorizon.json");
         //System.out.println(sigma);
         RealMarketItem e = sender.fetchRealMarketItem("Horizon");
-        System.out.println(e);
+        //System.out.println(e);
         Util.getBuyOrderPrice(e);
     }
 }
