@@ -51,7 +51,7 @@ public class RequestSender {
             System.out.println("request " + request);
             System.out.println("response " + response);
             if (response.statusCode() == 200) {
-                return Util.toTestObj(response.body()); //Util.toItem(response.body());
+                return Util.toRealMarketItem(response.body()); //Util.toItem(response.body());
             } else {
                 System.out.println("Request was bad " + response.statusCode());
             }

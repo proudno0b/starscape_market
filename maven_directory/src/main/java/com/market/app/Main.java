@@ -9,7 +9,8 @@ class Main {
         RequestSender sender = new RequestSender();
         //MarketItem2 sigma = Util.readJsonFile("/TestHorizon.json");
         //System.out.println(sigma);
-        RealMarketItem e = sender.fetchTestObj("Horizon");
+        RealMarketItem e = sender.fetchRealMarketItem("Horizon");
         System.out.println(e);
+        Util.getBuyOrderPrice(e);
     }
 }
