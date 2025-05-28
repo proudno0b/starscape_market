@@ -11,6 +11,6 @@ class Main {
         //System.out.println(sigma);
         RealMarketItem e = sender.fetchRealMarketItem("Horizon");
         //System.out.println(e);
-        Util.getBuyOrderPrice(e);
+        System.out.println(Util.getBuyOrderPrice(e));
     }
 }

@@ -62,13 +62,13 @@ public class Util {
         return null;
     }
     public static double getBuyOrderPrice(RealMarketItem item) {
-        Map<String,Object> items = item.getFieldsMap();
-        ArrayList<Object> itemName = new ArrayList<>(items.values());
-        Object real_item = itemName.get(0);
-        Object buyOrders = real_item.buy();
-        ArrayList<double> prices = new ArrayList<double>();
+        /*Map<String,Object> items = item.getFieldsMap();
+        //Object real_item = itemName.get(0);
+        ArrayList<Object> buyOrders = new ArrayList<>();
+
+        ArrayList<Double> prices = new ArrayList<Double>();
         for (Object listing : buyOrders) {
-            prices.add(listing.price());
+            //prices.add(listing.price());
         }
         int lowestindex = 0;
         for (int i=0;i<prices.size();i++) {
@@ -76,7 +76,8 @@ public class Util {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return prices.get(lowestindex);*/
+        return null;
     } 
 }
 
