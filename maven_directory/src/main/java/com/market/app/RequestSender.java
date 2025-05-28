@@ -1,7 +1,7 @@
 //package maven_directory.src.main.java.com.market.app;
 package com.market.app;
 import java.net.http.*;
-//import java.util.*;
+import java.util.*;
 import java.io.*;
 //import org.json.*;
 //import java.net.http.URI;
@@ -11,7 +11,7 @@ public class RequestSender {
     //boolean exists;
     public RequestSender() {
     }
-    public MarketItem2 FetchItemData(String item) {
+    public List<Object> FetchItemData(String item) {
         String api_key = new Secrets().getAPIKey();
 
         try {
@@ -26,7 +26,7 @@ public class RequestSender {
             System.out.println("request " + request);
             System.out.println("response " + response);
             if (response.statusCode() == 200) {
-                return Util.toItem(response.body());
+                return Util.toList(response.body()) //Util.toItem(response.body());
             } else {
                 System.out.println("Request was bad " + response.statusCode());
             }

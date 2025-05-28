@@ -1,5 +1,6 @@
 //package maven_directory.src.main.java.com.market.app;
 package com.market.app;
+import com.fasterxml.jackson.core.type.TypeReference;
 //import com.fasterxml.jackson.core.type.TypeReference;
 //import com.fasterxml.jackson.*;
 //import com.fasterxml.jackson.core.JsonFactoryBuilder;
@@ -7,6 +8,7 @@ package com.market.app;
 //import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.*;
+import java.util.*;
 //import java.util.*;
 
 public class Util {
@@ -27,13 +29,23 @@ public class Util {
     public static MarketItem2 readJsonFile(String s) {
         
         try {
-        File f = new File("TestHorizon.json");
-        return OBJECT_MAPPER.readValue(f,MarketItem2.class);
+            File file = new File(".");
+            for(String fileNames : file.list()) System.out.println(fileNames);
+            File f = new File("starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\TestHorizon.json");
+            return OBJECT_MAPPER.readValue(f,MarketItem2.class);
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
 
+    }
+    public static List<Object> toList(InputStream inputStream) {
+        try {
+            return OBJECT_MAPPER.readValue(inputStream, new TypeReference<>() {}
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 } 
 

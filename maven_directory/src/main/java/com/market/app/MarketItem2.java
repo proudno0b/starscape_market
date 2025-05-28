@@ -1,9 +1,14 @@
 package com.market.app;
 import java.util.*;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+@JsonIgnoreProperties
 public record MarketItem2 (
-    Horizon items
+    Horizon iteminfo
 ) {
     public record Horizon (
+        Item item
+    ) {
+    public record Item (
     String name,
     Integer _id,
     String time_scanned,
@@ -22,4 +27,5 @@ public record MarketItem2 (
         ) {}
     } 
 }
+    }
 }
