@@ -11,7 +11,7 @@ public class RequestSender {
     //boolean exists;
     public RequestSender() {
     }
-    public List<Object> FetchItemData(String item) {
+    public Map<String,MarketItem> fetchItemData(String item) {
         String api_key = new Secrets().getAPIKey();
 
         try {
@@ -26,7 +26,7 @@ public class RequestSender {
             System.out.println("request " + request);
             System.out.println("response " + response);
             if (response.statusCode() == 200) {
-                return Util.toList(response.body()) //Util.toItem(response.body());
+                return Util.toItem(response.body()); //Util.toItem(response.body());
             } else {
                 System.out.println("Request was bad " + response.statusCode());
             }
@@ -37,8 +37,30 @@ public class RequestSender {
         
         return null;
     }
-    public void FetchMarketData() {
+    public test fetchTestObj(String asdasd) {
+        try {
+            HttpClient client = HttpClient.newHttpClient();
 
+            HttpRequest request = HttpRequest.newBuilder()
+            .uri(new URI(String.format("https://api.v-io.info/v1/market/latest?items=%s",item)))
+            .header("x-api-key",api_key)
+            .GET()
+            .build();
+            HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream());
+            System.out.println("request " + request);
+            System.out.println("response " + response);
+            if (response.statusCode() == 200) {
+                return Util.toTestObj(response.body()); //Util.toItem(response.body());
+            } else {
+                System.out.println("Request was bad " + response.statusCode());
+            }
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+        return null;
     }
+    public void fetchMarketData() {}
 
 }
