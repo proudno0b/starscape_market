@@ -7,14 +7,14 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 // using method taken from https://stackoverflow.com/questions/72057546/how-to-deserialize-this-dynamic-keys-json-to-java-custom-pojo-using-jackson
 public class RealMarketItem {
-        private Map<String, Object> dynamicKeys = new HashMap<>();
+        private Map<String, JsonNode> dynamicKeys = new HashMap<>();
     
     @JsonAnySetter
-    public void setUnknownFields(String name, Object value) {
+    public void setUnknownFields(String name, JsonNode value) {
         dynamicKeys.put(name, value);
     }
     
-    public Map<String, Object> getFieldsMap() {
+    public Map<String, JsonNode> getFieldsMap() {
         return dynamicKeys;
     }
     public String toString() {
