@@ -14,7 +14,7 @@ class Main {
         System.out.println(e);
         System.out.println(" ---");
         System.out.println("lowest price " + Util.getSellOrderPrice(e,"Horizon"));
-        Util.writeStatsToFile(Calculator.calculateMarketSpread(e),"output");
+        Util.writeStatsToFile(Calculator.calculateMarketSpread(e));
 
     }
 }

@@ -10,6 +10,6 @@ public class ItemStatistics {
         this.percentMargin = _percentMargin;
     }
     public String toString() {
-        return String.format("Item Name: %s%n Buy/Sell price spread: %s%n Percentage profit margin: %s",itemName,profitMargin,percentMargin);
+        return String.format("Item Name: %s%n Buy/Sell price spread: %s%n Percentage profit margin: %s%",itemName,profitMargin,percentMargin);
     }
 }
