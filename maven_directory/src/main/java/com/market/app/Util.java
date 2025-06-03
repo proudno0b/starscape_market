@@ -189,13 +189,12 @@ public static double getSellOrderPrice(RealMarketItem item) {
     }
         return -1;
     }
-    public static void writeStatsToFile(ItemStatistics itemStats, String directory) {
-        directory = (directory == "") ? "output" : directory;
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss a z");
+    public static void writeStatsToFile(ItemStatistics itemStats) {
+        String PATH_TO_DIR = "C:\\Users\\Hoi\\Desktop\\The Archive (v3)\\code\\starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\output";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String fileName = formatter.format(LocalDateTime.now());
         try {
-        File outputFile = new File(directory+"/output-"+fileName);
-        PrintWriter writer = new PrintWriter(outputFile);
+        PrintWriter writer = new PrintWriter(PATH_TO_DIR+"\\output-"+fileName+".txt");
             writer.println("-----");
             writer.println(itemStats);
         writer.close();
@@ -204,13 +203,12 @@ public static double getSellOrderPrice(RealMarketItem item) {
         }
 
     }
-    public static void writeStatsToFile(ArrayList<ItemStatistics> itemStatsList, String directory) {
-        directory = (directory == "") ? "output" : directory;
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss a z");
+    public static void writeStatsToFile(ArrayList<ItemStatistics> itemStatsList) {
+        String PATH_TO_DIR = "C:\\Users\\Hoi\\Desktop\\The Archive (v3)\\code\\starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\output";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String fileName = formatter.format(LocalDateTime.now());
         try {
-        File outputFile = new File(directory+"/output-"+fileName);
-        PrintWriter writer = new PrintWriter(outputFile);
+        PrintWriter writer = new PrintWriter(PATH_TO_DIR+"\\output-"+fileName+".txt");
         for (ItemStatistics itemStats : itemStatsList) {
             writer.println("-----");
             writer.println(itemStats);
