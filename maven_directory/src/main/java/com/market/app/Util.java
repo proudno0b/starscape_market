@@ -10,6 +10,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 //import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 import java.util.*;
 //import java.util.*;
 
@@ -65,44 +68,139 @@ public class Util {
         return null;
     }
     
-    public static double getBuyOrderPrice(RealMarketItem item) {
+    public static double getBuyOrderPrice(RealMarketItem item, String itemName) {
         try {
         JsonNode real_item = OBJECT_MAPPER.valueToTree(item);
-        JsonNode buyOrders = real_item;
+        JsonNode buyOrders = real_item.get("fieldsMap").get("items").get(itemName).get("buy");
         System.out.println("real item " + real_item);
-        ArrayList<JsonNode> prices = new ArrayList<JsonNode>();
+        System.out.println("buy orders " + buyOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
         for (JsonNode listing : buyOrders) {
-            prices.add(listing.get(0));
+            prices.add(listing.get("price").asDouble());
             System.out.println("added 1 listing to prices");
         }
         int lowestindex = 0;
-        for (JsonNode j : prices) {
+        for (double j : prices) {
             System.out.println("prices " + j);
         }
         for (int i=0;i<prices.size();i++) {
             System.out.println(prices.get(i));
-            List<MarketOrder> currentPrice = nodeToOrder(prices.get(i));
-            List<MarketOrder> lowestPrice = nodeToOrder(prices.get(lowestindex));
-            if (currentPrice.get(0).price() < lowestPrice.get(0).price()) {
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
                 lowestindex = i;
             }
         }
-        return nodeToOrder(prices.get(lowestindex)).get(0).price();
+        return prices.get(lowestindex);
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
     }
         return -1;
     } 
-
-public static List<MarketOrder> nodeToOrder(JsonNode node) {
-    TypeReference<List<MarketOrder>> orderReference = new TypeReference<List<MarketOrder>>() {};
-    try {
-    return OBJECT_MAPPER.readValue(node.traverse(),orderReference);
-    } catch (IOException e) {
+ public static double getBuyOrderPrice(RealMarketItem item) {
+        try {
+        JsonNode real_item = OBJECT_MAPPER.valueToTree(item);
+        JsonNode buyOrders = real_item.get("fieldsMap").get("items").get(item.getName()).get("buy");
+        System.out.println("real item " + real_item);
+        System.out.println("buy orders " + buyOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
+        for (JsonNode listing : buyOrders) {
+            prices.add(listing.get("price").asDouble());
+            System.out.println("added 1 listing to prices");
+        }
+        int lowestindex = 0;
+        for (double j : prices) {
+            System.out.println("prices " + j);
+        }
+        for (int i=0;i<prices.size();i++) {
+            System.out.println(prices.get(i));
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
+    } catch (Exception e) {
+        System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
     }
-    return null;
+        return -1;
+    } 
+    public static double getSellOrderPrice(RealMarketItem item, String itemName) {
+        try {
+        JsonNode real_item = OBJECT_MAPPER.valueToTree(item);
+        JsonNode sellOrders = real_item.get("fieldsMap").get("items").get(itemName).get("sell");
+        System.out.println("real item " + real_item);
+        System.out.println("buy orders " + sellOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
+        for (JsonNode listing : sellOrders) {
+            prices.add(listing.get("price").asDouble());
+            System.out.println("added 1 listing to prices");
+        }
+        int lowestindex = 0;
+        for (double j : prices) {
+            System.out.println("prices " + j);
+        }
+        for (int i=0;i<prices.size();i++) {
+            System.out.println(prices.get(i));
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
+    } catch (Exception e) {
+        System.out.println("There was a error in the util get buy order function");
+        e.printStackTrace();
+    }
+        return -1;
+    }
 
-} 
+public static double getSellOrderPrice(RealMarketItem item) {
+        try {
+        JsonNode real_item = OBJECT_MAPPER.valueToTree(item);
+        JsonNode sellOrders = real_item.get("fieldsMap").get("items").get(item.getName()).get("sell");
+        System.out.println("real item " + real_item);
+        System.out.println("buy orders " + sellOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
+        for (JsonNode listing : sellOrders) {
+            prices.add(listing.get("price").asDouble());
+            System.out.println("added 1 listing to prices");
+        }
+        int lowestindex = 0;
+        for (double j : prices) {
+            System.out.println("prices " + j);
+        }
+        for (int i=0;i<prices.size();i++) {
+            System.out.println(prices.get(i));
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
+    } catch (Exception e) {
+        System.out.println("There was a error in the util get buy order function");
+        e.printStackTrace();
+    }
+        return -1;
+    }
+    public static void writeStatsToFile(ArrayList<itemStatistics> itemStatsList, String directory) {
+        directory = (directory == "") ? "output" : directory;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss a z");
+        String fileName = formatter.format(LocalDateTime.now());
+        try {
+        File outputFile = new File(directory+"/output-"+fileName);
+        PrintWriter writer = new PrintWriter(outputFile);
+        writer.println("-----");
+        writer.println()
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 }
