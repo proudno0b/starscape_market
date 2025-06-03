@@ -189,15 +189,35 @@ public static double getSellOrderPrice(RealMarketItem item) {
     }
         return -1;
     }
-    public static void writeStatsToFile(ArrayList<itemStatistics> itemStatsList, String directory) {
+    public static void writeStatsToFile(ItemStatistics itemStats, String directory) {
         directory = (directory == "") ? "output" : directory;
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss a z");
         String fileName = formatter.format(LocalDateTime.now());
         try {
         File outputFile = new File(directory+"/output-"+fileName);
         PrintWriter writer = new PrintWriter(outputFile);
-        writer.println("-----");
-        writer.println()
+            writer.println("-----");
+            writer.println(itemStats);
+        writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+    public static void writeStatsToFile(ArrayList<ItemStatistics> itemStatsList, String directory) {
+        directory = (directory == "") ? "output" : directory;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss a z");
+        String fileName = formatter.format(LocalDateTime.now());
+        try {
+        File outputFile = new File(directory+"/output-"+fileName);
+        PrintWriter writer = new PrintWriter(outputFile);
+        for (ItemStatistics itemStats : itemStatsList) {
+            writer.println("-----");
+            writer.println(itemStats);
+
+        }
+        writer.close();
+        
         } catch (IOException e) {
             e.printStackTrace();
         }
