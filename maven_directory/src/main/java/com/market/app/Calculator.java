@@ -1,10 +1,15 @@
 package com.market.app;
 
 public class Calculator {
-    public static ItemStatistics calculateMarketSpread(RealMarketItem r) {
-        double lowest_buy = Util.getBuyOrderPrice(r);
-        double lowest_sell = Util.getSellOrderPrice(r);
-        ItemStatistics item = new ItemStatistics(r.getName(),Math.abs(lowest_sell - lowest_buy),((lowest_sell - lowest_buy)/(lowest_buy+lowest_sell)*100));
-        return item;
+    public static void calculateMarketSpread(String item) {
+
+    }
+}
+
+package com.market.app;
+
+public class Calculator {
+    public static calculateMarketSpread(String item) {
+        
     }
 }
