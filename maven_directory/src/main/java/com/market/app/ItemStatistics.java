@@ -1,6 +1,7 @@
 package com.market.app;
 
 public class ItemStatistics {
+    //POJO 
     private String itemName;
     private double profitMargin;
     private double percentMargin;

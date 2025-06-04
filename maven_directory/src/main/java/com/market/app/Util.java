@@ -21,38 +21,21 @@ import org.apache.commons.beanutils.BeanUtils;
 public class Util {
 //    //adapted from medium article
 
-    public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);;
-    
-    public static Map<String,MarketItem> toItem(InputStream inputStream) {
-        try {
-            //OBJECT_MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-            //return OBJECT_MAPPER.readValue(inputStream, MarketItem.class);
-
-            // input stream is HttpResponse body with BodyHandlers.ofInputStream
-            Map<String,MarketItem> mapper = 
-            OBJECT_MAPPER.readValue(inputStream, new TypeReference<Map<String,MarketItem>>() {});
-            return mapper;
-        } catch (IOException e) {
-            System.out.println("there was an IO exception in util to list method");
-            e.printStackTrace();
-        }
-        return null;
-    }
+    public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    //fail on unknown properties = false stops objectmapper from throwing an exception when there are unset properties
     public static RealMarketItem toRealMarketItem(InputStream inputStream) {
         try {
-            return OBJECT_MAPPER.readValue(inputStream,RealMarketItem.class);
+            return OBJECT_MAPPER.readValue(inputStream,RealMarketItem.class); 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return null; // to ensure it compiles
     }
-    public static MarketItem readJsonFile(String s) {
+    public static JsonNode readJsonFile(String s) {
         
         try {
-            File file = new File(".");
-            for(String fileNames : file.list()) System.out.println(fileNames);
-            File f = new File("starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\TestHorizon.json");
-            return OBJECT_MAPPER.readValue(f,MarketItem.class);
+            File f = new File("maven_directory\\src\\main\\java\\com\\market\\app\\"+s); //relative path to file to be scanned, allows loading from file
+            return OBJECT_MAPPER.readValue(f,JsonNode.class); 
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -70,7 +53,7 @@ public class Util {
     
     public static double getBuyOrderPrice(RealMarketItem item, String itemName) {
         try {
-        JsonNode real_item = OBJECT_MAPPER.valueToTree(item);
+        JsonNode real_item = OBJECT_MAPPER.valueToTree(item); //reads RealMarketItem as JsonNode
         JsonNode buyOrders = real_item.get("fieldsMap").get("items").get(itemName).get("buy");
         System.out.println("real item " + real_item);
         System.out.println("buy orders " + buyOrders);
