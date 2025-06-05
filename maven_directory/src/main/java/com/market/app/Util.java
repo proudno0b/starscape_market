@@ -32,9 +32,10 @@ public class Util {
         return null; // to ensure it compiles
     }
     public static JsonNode readJsonFile(String s) {
+        String PATH_TO_DIR = new Secrets().getDirectory();
         
         try {
-            File f = new File("maven_directory\\src\\main\\java\\com\\market\\app\\"+s); //relative path to file to be scanned, allows loading from file
+            File f = new File(PATH_TO_DIR+"\\"+s); //relative path to file to be scanned, allows loading from file
             return OBJECT_MAPPER.readValue(f,JsonNode.class); 
         } catch (Exception e) {
             e.printStackTrace();
@@ -141,6 +142,64 @@ public class Util {
     }
         return -1;
     }
+public static double getSellOrderPrice(JsonNode real_item,String itemName) {
+    JsonNode sellOrders = real_item.get("items").get(itemName).get("sell");
+    try {
+        System.out.println("real item " + real_item);
+        System.out.println("buy orders " + sellOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
+        for (JsonNode listing : sellOrders) {
+            prices.add(listing.get("price").asDouble());
+            System.out.println("added 1 listing to prices");
+        }
+        int lowestindex = 0;
+        for (double j : prices) {
+            System.out.println("prices " + j);
+        }
+        for (int i=0;i<prices.size();i++) {
+            System.out.println(prices.get(i));
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
+    } catch (Exception e) {
+        System.out.println("There was a error in the util get buy order function");
+        e.printStackTrace();
+    }
+        return -1;
+    }
+    public static double getBuyOrderPrice(JsonNode real_item,String itemName) {
+    JsonNode buyOrders = real_item.get("items").get(itemName).get("buy");
+    try {
+        System.out.println("real item " + real_item);
+        System.out.println("buy orders " + buyOrders);
+        ArrayList<Double> prices = new ArrayList<Double>();
+        for (JsonNode listing : buyOrders) {
+            prices.add(listing.get("price").asDouble());
+            System.out.println("added 1 listing to prices");
+        }
+        int lowestindex = 0;
+        for (double j : prices) {
+            System.out.println("prices " + j);
+        }
+        for (int i=0;i<prices.size();i++) {
+            System.out.println(prices.get(i));
+            double currentPrice = prices.get(i);
+            double lowestPrice = prices.get(lowestindex);
+            if (currentPrice < lowestPrice) {
+                lowestindex = i;
+            }
+        }
+        return prices.get(lowestindex);
+    } catch (Exception e) {
+        System.out.println("There was a error in the util get buy order function");
+        e.printStackTrace();
+    }
+        return -1;
+    }
 
 public static double getSellOrderPrice(RealMarketItem item) {
         try {
@@ -173,7 +232,7 @@ public static double getSellOrderPrice(RealMarketItem item) {
         return -1;
     }
     public static void writeStatsToFile(ItemStatistics itemStats) {
-        String PATH_TO_DIR = "C:\\Users\\Hoi\\Desktop\\The Archive (v3)\\code\\starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\output";
+        String PATH_TO_DIR = new Secrets().getDirectory()+"\\output";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String fileName = formatter.format(LocalDateTime.now());
         try {
@@ -184,10 +243,21 @@ public static double getSellOrderPrice(RealMarketItem item) {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+    }
+    public static void writeStatsToFile(ItemStatistics itemStats, String PATH_TO_DIR) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
+        String fileName = formatter.format(LocalDateTime.now());
+        try {
+        PrintWriter writer = new PrintWriter(PATH_TO_DIR+"\\output-"+fileName+".txt");
+            writer.println("-----");
+            writer.println(itemStats);
+        writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     public static void writeStatsToFile(ArrayList<ItemStatistics> itemStatsList) {
-        String PATH_TO_DIR = "C:\\Users\\Hoi\\Desktop\\The Archive (v3)\\code\\starscape_market\\maven_directory\\src\\main\\java\\com\\market\\app\\output";
+        String PATH_TO_DIR = new Secrets().getDirectory()+"\\output";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String fileName = formatter.format(LocalDateTime.now());
         try {

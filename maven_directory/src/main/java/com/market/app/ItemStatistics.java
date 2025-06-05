@@ -5,12 +5,16 @@ public class ItemStatistics {
     private String itemName;
     private double profitMargin;
     private double percentMargin;
-    public ItemStatistics(String _itemName,double _profitMargin,double _percentMargin) {
+    private double buyPrice;
+    private double sellPrice;
+    public ItemStatistics(String _itemName,double buyPrice,double sellPrice) {
         this.itemName = _itemName;
-        this.profitMargin = _profitMargin;
-        this.percentMargin = _percentMargin;
+        this.buyPrice = buyPrice;
+        this.sellPrice = sellPrice;
+        this.profitMargin = sellPrice - buyPrice;
+        this.percentMargin = 100*this.profitMargin / (buyPrice);
     }
     public String toString() {
-        return String.format("Item Name: %s%n Buy/Sell price spread: %s%n Percentage profit margin: %.2f%%",itemName,profitMargin,percentMargin);
+        return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %s%n Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
     }
 }

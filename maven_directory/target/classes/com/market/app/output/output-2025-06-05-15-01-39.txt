@@ -1,0 +1,6 @@
+-----
+Item Name: Horizon
+ Buy price: 451001.0
+ Sell price: 780200.0
+ Profit Margin(credits): 329199.0
+ Percentage profit margin: 26.74%
