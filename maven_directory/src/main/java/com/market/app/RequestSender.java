@@ -1,11 +1,15 @@
 //package maven_directory.src.main.java.com.market.app;
 package com.market.app;
-import java.net.http.*;
-import java.util.*;
-import java.io.*;
+import java.io.InputStream;
 //import org.json.*;
 //import java.net.http.URI;
 import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.*;
+
+import com.fasterxml.jackson.databind.JsonNode;
 
 public class RequestSender {
     //constructor not necessary as there's no
@@ -44,8 +48,46 @@ public class RequestSender {
         
         return null;
     }
-    public void fetchMarketData() {
+    public JsonNode fetchMarketData() {
+        return fetchMarketData(false);
 
     }
 
+    public JsonNode fetchMarketData(boolean useCache) {
+        if (useCache) {
+
+        } else {
+            try {
+                HttpClient client = HttpClient.newHttpClient();
+
+                HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI("https://api.v-io.info/v1/market/items")) // fetches list of possible items
+                .header("x-api-key",API_KEY) //supplies authentication
+                .GET() //specifies request as a GET request
+                .build(); //completes HttpRequest
+                HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream()); 
+                if (response.statusCode() == 200) {
+                    //do something
+                    JsonNode node = Util.toJsonNode(response.body());
+                    System.out.println(node);
+                    System.out.println("is node array? " + node.isArray());
+                    ArrayList<ItemStatistics> allItems = new ArrayList<>();
+                    for (int i = 0; i<node.size();i++) {
+                        String item = node.get(i).asText();
+                        RealMarketItem r = this.fetchRealMarketItem(item);
+                        allItems.add(Calculator.calculateMarketSpread(r));
+                    }
+                    Calculator.writeDataToCache(allItems);
+                } else {
+                    System.out.println("Request was bad " + response.statusCode());
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return null;
+
+        }
+        return null;
+    }
 }

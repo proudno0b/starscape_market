@@ -5,7 +5,7 @@ class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
         System.out.println("wtf");
-        //RequestSender sender = new RequestSender();
+        RequestSender sender = new RequestSender();
         //MarketItem2 sigma = Util.readJsonFile("/TestHorizon.json");
         //System.out.println(sigma);
         //RealMarketItem e = sender.fetchRealMarketItem("Horizon");
@@ -15,10 +15,12 @@ class Main {
         //System.out.println("lowest price " + Util.getSellOrderPrice(e,"Horizon"));
         //Util.writeStatsToFile(Calculator.calculateMarketSpread(e));
         JsonNode J = Util.readJsonFile("TestHorizon.json");
-        Util.writeStatsToFile(Calculator.calculateMarketSpread(J,"Horizon"));
+        // Util.writeStatsToFile(Calculator.calculateMarketSpread(J,"Horizon"));
         //Util.writeStatsToFile(J);
-        System.out.println(J);
-        System.out.println(J.get("items").get("Horizon").get("buy").get(0).get("vendor").get("displayName").asText());
+        //System.out.println(J);
+       // System.out.println(J.get("items").get("Horizon").get("buy").get(0).get("vendor").get("displayName").asText());
+       sender.fetchMarketData();
+
 
     }
 }
