@@ -20,7 +20,7 @@ public class RealMarketItem {
 
     @JsonAnySetter
     public void setUnknownFields(String name, JsonNode value) {
-        // JSON Anysetter from com.fasterxml.databind that dynamically maps JSON values to a generic java object 
+        // JSON Anysetter from com.fasterxml.jackson.databind that dynamically maps JSON values to a generic java object 
         dynamicKeys.put(name, value);
     }
     

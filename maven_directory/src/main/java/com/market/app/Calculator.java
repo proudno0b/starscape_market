@@ -1,4 +1,5 @@
 package com.market.app;
+import java.util.*;
 import com.fasterxml.jackson.databind.*;
 public class Calculator {
     public static ItemStatistics calculateMarketSpread(RealMarketItem r) {
@@ -12,5 +13,8 @@ public class Calculator {
         double lowest_sell = Util.getSellOrderPrice(J,itemName);
         ItemStatistics item = new ItemStatistics(itemName, lowest_buy, lowest_sell);
         return item;
+    }
+    public static void writeDataToCache(ArrayList<ItemStatistics> data) {
+        // do something
     }
 }

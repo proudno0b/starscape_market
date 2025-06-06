@@ -51,7 +51,14 @@ public class Util {
         }
         return null;
     }
-    
+    public static JsonNode toJsonNode(InputStream inputStream) {
+        try {
+        return OBJECT_MAPPER.readValue(inputStream,JsonNode.class);
+        } catch (IOException e) {
+            System.out.println("There was an error in the toJsonNode method in Util.java: " +e.getMessage());
+        }
+        return null;
+    }
     public static double getBuyOrderPrice(RealMarketItem item, String itemName) {
         try {
         JsonNode real_item = OBJECT_MAPPER.valueToTree(item); //reads RealMarketItem as JsonNode
