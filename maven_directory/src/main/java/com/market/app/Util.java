@@ -82,7 +82,7 @@ public class Util {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -112,7 +112,7 @@ public class Util {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -142,7 +142,7 @@ public class Util {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -171,7 +171,7 @@ public static double getSellOrderPrice(JsonNode real_item,String itemName) {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -200,7 +200,7 @@ public static double getSellOrderPrice(JsonNode real_item,String itemName) {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -231,7 +231,7 @@ public static double getSellOrderPrice(RealMarketItem item) {
                 lowestindex = i;
             }
         }
-        return prices.get(lowestindex);
+        return (prices.size() > 0) ? prices.get(lowestindex) : null;
     } catch (Exception e) {
         System.out.println("There was a error in the util get buy order function");
         e.printStackTrace();
@@ -250,6 +250,7 @@ public static double getSellOrderPrice(RealMarketItem item) {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    
     }
     public static void writeStatsToFile(ItemStatistics itemStats, String PATH_TO_DIR) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");

@@ -1,6 +1,7 @@
 package com.market.app;
 
-public class ItemStatistics {
+//comparable taken from official documentation
+public class ItemStatistics implements Comparable<ItemStatistics> {
     //POJO 
     private String itemName;
     private double profitMargin;
@@ -13,6 +14,17 @@ public class ItemStatistics {
         this.sellPrice = sellPrice;
         this.profitMargin = sellPrice - buyPrice;
         this.percentMargin = 100*this.profitMargin / (buyPrice);
+    }
+    @Override
+    public int compareTo(ItemStatistics other) {
+        if (this.percentMargin < other.percentMargin) {
+            return -1;
+        } else if (this.percentMargin > other.percentMargin) {
+            return 1;
+        } else {
+            return 0;
+        }
+
     }
     public String toString() {
         return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %s%n Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
