@@ -48,14 +48,14 @@ public class RequestSender {
         
         return null;
     }
-    public JsonNode fetchMarketData() {
-        return fetchMarketData(false);
+    public void fetchMarketData() {
+        fetchMarketData(false);
 
     }
 
-    public JsonNode fetchMarketData(boolean useCache) {
+    public void fetchMarketData(boolean useCache) {
         if (useCache) {
-
+            System.out.println("successfully wrote data from cache");
         } else {
             try {
                 HttpClient client = HttpClient.newHttpClient();
@@ -78,16 +78,18 @@ public class RequestSender {
                         allItems.add(Calculator.calculateMarketSpread(r));
                     }
                     Calculator.writeDataToCache(allItems);
+                    Util.writeStatsToFile(allItems);
+                    System.out.println("successfully fetched market data and wrote it to file");
                 } else {
                     System.out.println("Request was bad " + response.statusCode());
+                    System.out.println("Trying again from cached data...");
+                    fetchMarketData(true);
                 }
 
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return null;
 
         }
-        return null;
     }
 }
