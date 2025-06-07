@@ -1,0 +1,10 @@
+com\market\app\MarketOrder.class
+com\market\app\Main.class
+com\market\app\DynamicMarketItem.class
+com\market\app\MarketItem$ListingInfo.class
+com\market\app\RealMarketItem.class
+com\market\app\MarketItem$ListingInfo$VendorInfo.class
+com\market\app\Calculator.class
+com\market\app\MarketItem.class
+com\market\app\ItemStatistics.class
+com\market\app\ListingInfo.class

@@ -27,6 +27,6 @@ public class ItemStatistics implements Comparable<ItemStatistics> {
 
     }
     public String toString() {
-        return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %s%n Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
+        return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %s%.2f Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
     }
 }

@@ -70,6 +70,7 @@ public class RequestSender {
         fetchMarketData(false,amount,usePercent);
     }
     public void fetchMarketData(boolean useCache, int amount, boolean usePercent) {
+        /// WARNING: SLOW due to trying to avoid http response 429 too many requests, highly recommend using cached data when that is implemented.
         if (useCache) {
             System.out.println("successfully wrote data from cache");
         } else {
@@ -87,13 +88,17 @@ public class RequestSender {
                     JsonNode node = Util.toJsonNode(response.body());
                     System.out.println(node);
                     System.out.println("is node array? " + node.isArray());
+                    ItemStatistics numItems = new ItemStatistics("number of items available",1,node.size());
                     ArrayList<ItemStatistics> allItems = new ArrayList<>();
                     for (int i = 0; i<node.size();i++) {
                         // fetches list of all possible items in market
                         String item = node.get(i).asText();
+                        
                         RealMarketItem r = this.fetchRealMarketItem(item);
                         // adds each fetched item to a RealMarketItem object, then converts it into an ItemStatistics and adds it to an ArrayList.
                         allItems.add(Calculator.calculateMarketSpread(r));
+                        Thread.sleep(2000);
+
                     }
 
                     // sorts list of all possible items in reverse order to display highest % profit margins first
@@ -108,8 +113,9 @@ public class RequestSender {
                     System.out.println("successfully fetched market data and wrote it to file");
                 } else {
                     System.out.println("Request was bad " + response.statusCode());
+                    System.out.println(response.headers());
                     System.out.println("Trying again from cached data...");
-                    fetchMarketData(true);
+                    //fetchMarketData(useCache = true);
                 }
 
             } catch (Exception e) {
