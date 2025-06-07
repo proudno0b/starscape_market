@@ -1,59 +1,51 @@
 //package maven_directory.src.main.java.com.market.app;
 package com.market.app;
-import java.net.http.*;
-import java.util.*;
-import java.io.*;
+import java.io.InputStream;
+import java.io.InputStream;
 //import org.json.*;
 //import java.net.http.URI;
 import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.URLEncoder;
+import java.util.*;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.*;
+
+import com.fasterxml.jackson.databind.JsonNode;
 
 public class RequestSender {
-    //boolean exists;
+    //constructor not necessary as there's no
+    private String API_KEY;
     public RequestSender() {
+        this.API_KEY = new Secrets().getAPIKey();
     }
-    public Map<String,MarketItem> fetchItemData(String item) {
-        String api_key = new Secrets().getAPIKey();
-
-        try {
-            HttpClient client = HttpClient.newHttpClient();
-
-            HttpRequest request = HttpRequest.newBuilder()
-            .uri(new URI(String.format("https://api.v-io.info/v1/market/latest?items=%s",item)))
-            .header("x-api-key",api_key)
-            .GET()
-            .build();
-            HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream());
-            System.out.println("request " + request);
-            System.out.println("response " + response);
-            if (response.statusCode() == 200) {
-                return Util.toItem(response.body()); //Util.toItem(response.body());
-            } else {
-                System.out.println("Request was bad " + response.statusCode());
-            }
-            
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        
-        return null;
+    public RequestSender(String key) {
+        this.API_KEY = key;
     }
     public RealMarketItem fetchRealMarketItem(String item) {
-        String api_key = new Secrets().getAPIKey();
+        
         try {
             HttpClient client = HttpClient.newHttpClient();
-
+            String uri = "https://api.v-io.info/v1/market/latest?items=";
             HttpRequest request = HttpRequest.newBuilder()
-            .uri(new URI(String.format("https://api.v-io.info/v1/market/latest?items=%s",item)))
-            .header("x-api-key",api_key)
-            .GET()
-            .build();
-            HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream());
+            .uri(new URI(uri + URLEncoder.encode(item))) // fetches actual item
+            .header("x-api-key",API_KEY) //supplies authentication
+            .GET() //specifies request as a GET request
+            .build(); //completes HttpRequest
+            HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream()); 
+            // takes httpresponse with input stream handler as jackson databind's object mapper requires an InputStream as an argument
             System.out.println("request " + request);
             System.out.println("response " + response);
             if (response.statusCode() == 200) {
-                RealMarketItem output = Util.toRealMarketItem(response.body());
-                output.setName(item);
-                return output;//Util.toItem(response.body());
+                RealMarketItem output = Util.toRealMarketItem(response.body()); //returns mapped JSON as a RealMarketItem Object
+                output.setName(item); // required for easy fetching of dynamic json attr. which is the item's name
+                return output;
             } else {
                 System.out.println("Request was bad " + response.statusCode());
             }
@@ -64,6 +56,66 @@ public class RequestSender {
         
         return null;
     }
-    public void fetchMarketData() {}
+    public void fetchMarketData() {
+        fetchMarketData(false,10,true);
 
+    }
+    public void fetchMarketData(int amount) {
+        fetchMarketData(false,amount,false);
+    }
+    public void fetchMarketData(boolean usePercent) {
+        fetchMarketData(false,10,usePercent);
+    }
+    public void fetchMarketData(int amount, boolean usePercent) {
+        fetchMarketData(false,amount,usePercent);
+    }
+    public void fetchMarketData(boolean useCache, int amount, boolean usePercent) {
+        if (useCache) {
+            System.out.println("successfully wrote data from cache");
+        } else {
+            try {
+                HttpClient client = HttpClient.newHttpClient();
+
+                HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI("https://api.v-io.info/v1/market/items")) // fetches list of possible items
+                .header("x-api-key",API_KEY) //supplies authentication
+                .GET() //specifies request as a GET request
+                .build(); //completes HttpRequest
+                HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream()); 
+                if (response.statusCode() == 200) {
+                    //do something
+                    JsonNode node = Util.toJsonNode(response.body());
+                    System.out.println(node);
+                    System.out.println("is node array? " + node.isArray());
+                    ArrayList<ItemStatistics> allItems = new ArrayList<>();
+                    for (int i = 0; i<node.size();i++) {
+                        // fetches list of all possible items in market
+                        String item = node.get(i).asText();
+                        RealMarketItem r = this.fetchRealMarketItem(item);
+                        // adds each fetched item to a RealMarketItem object, then converts it into an ItemStatistics and adds it to an ArrayList.
+                        allItems.add(Calculator.calculateMarketSpread(r));
+                    }
+
+                    // sorts list of all possible items in reverse order to display highest % profit margins first
+                    Collections.sort(allItems,Collections.reverseOrder());
+                    Calculator.writeDataToCache(allItems); // caches fetched data for future use
+                    ArrayList<ItemStatistics> statsToOutput = new ArrayList<>();
+                    for (int i=0;i<amount;i++) {
+                        statsToOutput.add(allItems.get(i));
+                        //transcribes the N highest margin items to a new list
+                    }
+                    Util.writeStatsToFile(statsToOutput); // writes output of the N highest margin items to file
+                    System.out.println("successfully fetched market data and wrote it to file");
+                } else {
+                    System.out.println("Request was bad " + response.statusCode());
+                    System.out.println("Trying again from cached data...");
+                    fetchMarketData(true);
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
 }
