@@ -63,7 +63,7 @@ public class RequestSender {
     public void fetchMarketData(boolean usePercent) {
         fetchMarketData(false,10,usePercent);
     }
-    public void fetchMarketData(int amount, boolean useCache) {
+    public RealMarketItem goodFetchMarketData(int amount, boolean useCache) {
         // good ver. try to use this
         if (useCache) {
             System.out.println("successfully wrote data from cache");
@@ -88,19 +88,29 @@ public class RequestSender {
                         builder.append(element.asText());
                         builder.append(",");
                     }
-
+                    HttpRequest marketFetcher = HttpRequest.newBuilder()
+                    .uri(new URI("https://api.v-io.info/v1/market/items")) // fetches list of possible items
+                    .header("x-api-key",API_KEY) //supplies authentication
+                    .GET() //specifies request as a GET request
+                    .build(); //completes HttpRequest
+                    HttpResponse<InputStream> fetchedResponse = client.send(marketFetcher,HttpResponse.BodyHandlers.ofInputStream());
+                    RealMarketItem market = Util.toRealMarketItem(fetchedResponse.body());
+                    return market;
 
                 } else {
                     System.out.println("response was bad " + response.statusCode());
+                    return null;
                 }
             } catch (Exception e) {
                 e.printStackTrace();
+                return null;
             }
         }
     }
     public void fetchMarketData(boolean useCache, int amount, boolean usePercent) {
         /// WARNING: SLOW due to trying to avoid http response 429 too many requests, highly recommend using cached data when that is implemented.
-        /// 
+        /// will be deprecated
+        /// latest run took 13.91667 minutes :skull:
         long before = System.currentTimeMillis();
 
         if (useCache) {
