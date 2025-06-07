@@ -1,0 +1,6 @@
+Item Name: Gellium
+ Buy price: 6.0
+ Sell price: 10.95
+ Profit Margin(credits): 4.95
+ Percentage profit margin: 82.50%
+-----

@@ -4,8 +4,8 @@ package com.market.app;
 public class ItemStatistics implements Comparable<ItemStatistics> {
     //POJO 
     private String itemName;
-    private double profitMargin;
-    private double percentMargin;
+    protected double profitMargin;
+    protected double percentMargin;
     private double buyPrice;
     private double sellPrice;
     public ItemStatistics(String _itemName,double buyPrice,double sellPrice) {
@@ -13,7 +13,7 @@ public class ItemStatistics implements Comparable<ItemStatistics> {
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
         this.profitMargin = sellPrice - buyPrice;
-        this.percentMargin = 100*this.profitMargin / (buyPrice);
+        this.percentMargin = (buyPrice > 0 && sellPrice > 0) ? 100*this.profitMargin / (buyPrice) : 0;
     }
     @Override
     public int compareTo(ItemStatistics other) {
@@ -27,6 +27,6 @@ public class ItemStatistics implements Comparable<ItemStatistics> {
 
     }
     public String toString() {
-        return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %s%.2f Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
+        return String.format("Item Name: %s%n Buy price: %s%n Sell price: %s%n Profit Margin(credits): %.2f%n Percentage profit margin: %.2f%%",itemName,buyPrice,sellPrice,profitMargin,percentMargin);
     }
 }

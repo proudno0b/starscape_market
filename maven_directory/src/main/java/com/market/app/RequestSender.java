@@ -57,20 +57,52 @@ public class RequestSender {
         return null;
     }
     public void fetchMarketData() {
-        fetchMarketData(false,10,true);
+        fetchMarketData(false,-1,true);
 
-    }
-    public void fetchMarketData(int amount) {
-        fetchMarketData(false,amount,false);
     }
     public void fetchMarketData(boolean usePercent) {
         fetchMarketData(false,10,usePercent);
     }
-    public void fetchMarketData(int amount, boolean usePercent) {
-        fetchMarketData(false,amount,usePercent);
+    public void fetchMarketData(int amount, boolean useCache) {
+        // good ver. try to use this
+        if (useCache) {
+            System.out.println("successfully wrote data from cache");
+        } else {
+            try {
+                HttpClient client = HttpClient.newHttpClient();
+
+                HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI("https://api.v-io.info/v1/market/items")) // fetches list of possible items
+                .header("x-api-key",API_KEY) //supplies authentication
+                .GET() //specifies request as a GET request
+                .build(); //completes HttpRequest
+                HttpResponse<InputStream> response = client.send(request,HttpResponse.BodyHandlers.ofInputStream());
+                if (response.statusCode() == 200) {
+                    JsonNode node = Util.toJsonNode(response.body());
+                    int commaCount = 0;
+                    for (JsonNode element : node) {
+                        commaCount++;
+                    }
+                    StringBuilder builder = new StringBuilder(node.size() + commaCount);
+                    for (JsonNode element : node) {
+                        builder.append(element.asText());
+                        builder.append(",");
+                    }
+
+
+                } else {
+                    System.out.println("response was bad " + response.statusCode());
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
     public void fetchMarketData(boolean useCache, int amount, boolean usePercent) {
         /// WARNING: SLOW due to trying to avoid http response 429 too many requests, highly recommend using cached data when that is implemented.
+        /// 
+        long before = System.currentTimeMillis();
+
         if (useCache) {
             System.out.println("successfully wrote data from cache");
         } else {
@@ -97,7 +129,7 @@ public class RequestSender {
                         RealMarketItem r = this.fetchRealMarketItem(item);
                         // adds each fetched item to a RealMarketItem object, then converts it into an ItemStatistics and adds it to an ArrayList.
                         allItems.add(Calculator.calculateMarketSpread(r));
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
 
                     }
 
@@ -105,12 +137,14 @@ public class RequestSender {
                     Collections.sort(allItems,Collections.reverseOrder());
                     Calculator.writeDataToCache(allItems); // caches fetched data for future use
                     ArrayList<ItemStatistics> statsToOutput = new ArrayList<>();
-                    for (int i=0;i<amount;i++) {
+                    int finalAmount = (amount == -1) ? node.size() : amount;
+                    for (int i=0;i<finalAmount;i++) {
                         statsToOutput.add(allItems.get(i));
                         //transcribes the N highest margin items to a new list
                     }
                     Util.writeStatsToFile(statsToOutput); // writes output of the N highest margin items to file
                     System.out.println("successfully fetched market data and wrote it to file");
+                    
                 } else {
                     System.out.println("Request was bad " + response.statusCode());
                     System.out.println(response.headers());
@@ -123,5 +157,18 @@ public class RequestSender {
             }
 
         }
+        System.out.println("Market Data fetch completed with time taken:" + ((System.currentTimeMillis()-before)/1000));
+    }
+    public void fetchResourcePrices() {
+
+    }
+    public void fetchDataFromList(ArrayList<String> itemList) {
+        ArrayList<ItemStatistics> outputList = new ArrayList<>();
+        for (String item : itemList) {
+            RealMarketItem real = fetchRealMarketItem(item);
+            ItemStatistics output = Calculator.calculateMarketSpread(real);
+            outputList.add(output);
+        }
+        Util.writeStatsToFile(outputList);
     }
 }

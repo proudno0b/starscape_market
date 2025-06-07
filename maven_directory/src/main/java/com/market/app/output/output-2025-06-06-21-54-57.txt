@@ -1,0 +1,60 @@
+-----
+Item Name: Gellium (inferior)
+ Buy price: 5.0
+ Sell price: 200200.0
+ Profit Margin(credits): 200195.0
+ Percentage profit margin: 4003900.00%
+-----
+Item Name: Dread Coilgun blueprint
+ Buy price: 100.0
+ Sell price: 6000.0
+ Profit Margin(credits): 5900.0
+ Percentage profit margin: 5900.00%
+-----
+Item Name: Reknite (superior)
+ Buy price: 15.8
+ Sell price: 650.0
+ Profit Margin(credits): 634.2
+ Percentage profit margin: 4013.92%
+-----
+Item Name: Foralkan Insignia
+ Buy price: 75.05
+ Sell price: 3000.0
+ Profit Margin(credits): 2924.95
+ Percentage profit margin: 3897.34%
+-----
+Item Name: Damaged Medical Supplies
+ Buy price: 5000.0
+ Sell price: 150000.0
+ Profit Margin(credits): 145000.0
+ Percentage profit margin: 2900.00%
+-----
+Item Name: Dread Reflective Plating
+ Buy price: 2000.0
+ Sell price: 59999.0
+ Profit Margin(credits): 57999.0
+ Percentage profit margin: 2899.95%
+-----
+Item Name: Dread Light Hull Repairer
+ Buy price: 5400.0
+ Sell price: 148500.0
+ Profit Margin(credits): 143100.0
+ Percentage profit margin: 2650.00%
+-----
+Item Name: Virtue blueprint
+ Buy price: 1500.0
+ Sell price: 40000.0
+ Profit Margin(credits): 38500.0
+ Percentage profit margin: 2566.67%
+-----
+Item Name: Heavy Bolt III
+ Buy price: 1000.0
+ Sell price: 24999.0
+ Profit Margin(credits): 23999.0
+ Percentage profit margin: 2399.90%
+-----
+Item Name: Phoenix Torso
+ Buy price: 10110.0
+ Sell price: 180000.0
+ Profit Margin(credits): 169890.0
+ Percentage profit margin: 1680.42%

@@ -208,6 +208,7 @@ public static double getSellOrderPrice(JsonNode real_item,String itemName) {
         }
     
     }
+
     public static void writeStatsToFile(ItemStatistics itemStats, String PATH_TO_DIR) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String fileName = formatter.format(LocalDateTime.now());
@@ -237,5 +238,11 @@ public static double getSellOrderPrice(JsonNode real_item,String itemName) {
             e.printStackTrace();
         }
 
+    }
+    public static void getMarket() {
+
+    }
+    public static FlatItemStatistics toFlat(ItemStatistics itemStats) {
+        return new FlatItemStatistics(itemStats);
     }
 }
