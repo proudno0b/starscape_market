@@ -1,0 +1,3498 @@
+-----
+Item Name: Gellium (inferior)
+ Buy price: 5.0
+ Sell price: 200200.0
+ Profit Margin(credits): 200195.00
+ Percentage profit margin: 4003900.00%
+-----
+Item Name: Reknite (superior)
+ Buy price: 15.8
+ Sell price: 650.0
+ Profit Margin(credits): 634.20
+ Percentage profit margin: 4013.92%
+-----
+Item Name: Dread Medium Hull Repairer
+ Buy price: 10000.0
+ Sell price: 400000.0
+ Profit Margin(credits): 390000.00
+ Percentage profit margin: 3900.00%
+-----
+Item Name: Foralkan Insignia
+ Buy price: 75.05
+ Sell price: 3000.0
+ Profit Margin(credits): 2924.95
+ Percentage profit margin: 3897.34%
+-----
+Item Name: Veil blueprint
+ Buy price: 399.0
+ Sell price: 14000.0
+ Profit Margin(credits): 13601.00
+ Percentage profit margin: 3408.77%
+-----
+Item Name: Hybrid Ion-M blueprint
+ Buy price: 6000.0
+ Sell price: 199999.0
+ Profit Margin(credits): 193999.00
+ Percentage profit margin: 3233.32%
+-----
+Item Name: Damaged Medical Supplies
+ Buy price: 5000.0
+ Sell price: 150000.0
+ Profit Margin(credits): 145000.00
+ Percentage profit margin: 2900.00%
+-----
+Item Name: Dread Light Hull Repairer
+ Buy price: 5000.0
+ Sell price: 149000.0
+ Profit Margin(credits): 144000.00
+ Percentage profit margin: 2880.00%
+-----
+Item Name: Heavy Bolt III
+ Buy price: 1000.0
+ Sell price: 24999.0
+ Profit Margin(credits): 23999.00
+ Percentage profit margin: 2399.90%
+-----
+Item Name: Ancient Composite Armor
+ Buy price: 2001.0
+ Sell price: 50000.0
+ Profit Margin(credits): 47999.00
+ Percentage profit margin: 2398.75%
+-----
+Item Name: Ancient Hull Booster
+ Buy price: 6000.0
+ Sell price: 133998.0
+ Profit Margin(credits): 127998.00
+ Percentage profit margin: 2133.30%
+-----
+Item Name: Dread Exhaust Restrictor
+ Buy price: 2000.0
+ Sell price: 39500.0
+ Profit Margin(credits): 37500.00
+ Percentage profit margin: 1875.00%
+-----
+Item Name: Liberty blueprint
+ Buy price: 1000.0
+ Sell price: 18999.0
+ Profit Margin(credits): 17999.00
+ Percentage profit margin: 1799.90%
+-----
+Item Name: Phoenix Torso
+ Buy price: 10110.0
+ Sell price: 180000.0
+ Profit Margin(credits): 169890.00
+ Percentage profit margin: 1680.42%
+-----
+Item Name: Ice Miner II blueprint
+ Buy price: 1502.0
+ Sell price: 18000.0
+ Profit Margin(credits): 16498.00
+ Percentage profit margin: 1098.40%
+-----
+Item Name: Honey Badger
+ Buy price: 1400.0
+ Sell price: 15000.0
+ Profit Margin(credits): 13600.00
+ Percentage profit margin: 971.43%
+-----
+Item Name: Warp disruptor II
+ Buy price: 375.0
+ Sell price: 4000.0
+ Profit Margin(credits): 3625.00
+ Percentage profit margin: 966.67%
+-----
+Item Name: Hybrid Beam-M
+ Buy price: 10000.0
+ Sell price: 100000.0
+ Profit Margin(credits): 90000.00
+ Percentage profit margin: 900.00%
+-----
+Item Name: Hybrid Light Shield Repairer
+ Buy price: 4000.0
+ Sell price: 40000.0
+ Profit Margin(credits): 36000.00
+ Percentage profit margin: 900.00%
+-----
+Item Name: Shipping Manifest
+ Buy price: 500.0
+ Sell price: 5000.0
+ Profit Margin(credits): 4500.00
+ Percentage profit margin: 900.00%
+-----
+Item Name: Korrelite (inferior)
+ Buy price: 2.05
+ Sell price: 20.0
+ Profit Margin(credits): 17.95
+ Percentage profit margin: 875.61%
+-----
+Item Name: Dread Skeletonized Chassis
+ Buy price: 4404.0
+ Sell price: 40000.0
+ Profit Margin(credits): 35596.00
+ Percentage profit margin: 808.27%
+-----
+Item Name: Hybrid Medium Shield Repairer
+ Buy price: 7500.0
+ Sell price: 65000.0
+ Profit Margin(credits): 57500.00
+ Percentage profit margin: 766.67%
+-----
+Item Name: Flak II
+ Buy price: 1200.0
+ Sell price: 8999.0
+ Profit Margin(credits): 7799.00
+ Percentage profit margin: 649.92%
+-----
+Item Name: Blaster II
+ Buy price: 1200.0
+ Sell price: 8999.0
+ Profit Margin(credits): 7799.00
+ Percentage profit margin: 649.92%
+-----
+Item Name: Energy Booster III
+ Buy price: 5702.0
+ Sell price: 40000.0
+ Profit Margin(credits): 34298.00
+ Percentage profit margin: 601.51%
+-----
+Item Name: Engine Gimbals III
+ Buy price: 1500.0
+ Sell price: 9991.0
+ Profit Margin(credits): 8491.00
+ Percentage profit margin: 566.07%
+-----
+Item Name: Ancient Afterburner-S
+ Buy price: 3999.0
+ Sell price: 24999.0
+ Profit Margin(credits): 21000.00
+ Percentage profit margin: 525.13%
+-----
+Item Name: Lycentian Helmet
+ Buy price: 1001.0
+ Sell price: 5995.0
+ Profit Margin(credits): 4994.00
+ Percentage profit margin: 498.90%
+-----
+Item Name: Candiru blueprint
+ Buy price: 8500.0
+ Sell price: 50000.0
+ Profit Margin(credits): 41500.00
+ Percentage profit margin: 488.24%
+-----
+Item Name: Hybrid Beam-M blueprint
+ Buy price: 17500.0
+ Sell price: 100000.0
+ Profit Margin(credits): 82500.00
+ Percentage profit margin: 471.43%
+-----
+Item Name: Stasis Field II
+ Buy price: 2555.0
+ Sell price: 13999.0
+ Profit Margin(credits): 11444.00
+ Percentage profit margin: 447.91%
+-----
+Item Name: Hybrid Blaster blueprint
+ Buy price: 10000.0
+ Sell price: 53000.0
+ Profit Margin(credits): 43000.00
+ Percentage profit margin: 430.00%
+-----
+Item Name: Kavani Helmet
+ Buy price: 1000.0
+ Sell price: 5000.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 400.00%
+-----
+Item Name: Contraband goods
+ Buy price: 500.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2000.00
+ Percentage profit margin: 400.00%
+-----
+Item Name: Hybrid Enhanced Deflectors Z
+ Buy price: 1001.0
+ Sell price: 5000.0
+ Profit Margin(credits): 3999.00
+ Percentage profit margin: 399.50%
+-----
+Item Name: Dread Warp Charger
+ Buy price: 40001.0
+ Sell price: 193999.0
+ Profit Margin(credits): 153998.00
+ Percentage profit margin: 384.99%
+-----
+Item Name: Kavani Mission Log
+ Buy price: 1652.0
+ Sell price: 7999.0
+ Profit Margin(credits): 6347.00
+ Percentage profit margin: 384.20%
+-----
+Item Name: Foralkan Mission Log
+ Buy price: 1653.0
+ Sell price: 7999.0
+ Profit Margin(credits): 6346.00
+ Percentage profit margin: 383.91%
+-----
+Item Name: Lycentian Insignia
+ Buy price: 75.15
+ Sell price: 358.0
+ Profit Margin(credits): 282.85
+ Percentage profit margin: 376.38%
+-----
+Item Name: Hybrid Shield Amplifier
+ Buy price: 6500.0
+ Sell price: 30000.0
+ Profit Margin(credits): 23500.00
+ Percentage profit margin: 361.54%
+-----
+Item Name: Lightburner-M III
+ Buy price: 5000.0
+ Sell price: 23000.0
+ Profit Margin(credits): 18000.00
+ Percentage profit margin: 360.00%
+-----
+Item Name: Ancient Coilgun-M
+ Buy price: 7001.0
+ Sell price: 32000.0
+ Profit Margin(credits): 24999.00
+ Percentage profit margin: 357.08%
+-----
+Item Name: Hybrid Beam blueprint
+ Buy price: 5500.0
+ Sell price: 25000.0
+ Profit Margin(credits): 19500.00
+ Percentage profit margin: 354.55%
+-----
+Item Name: Hybrid Beam
+ Buy price: 10001.0
+ Sell price: 45000.0
+ Profit Margin(credits): 34999.00
+ Percentage profit margin: 349.96%
+-----
+Item Name: Foralkan Helmet
+ Buy price: 1001.0
+ Sell price: 4500.0
+ Profit Margin(credits): 3499.00
+ Percentage profit margin: 349.55%
+-----
+Item Name: Miner II
+ Buy price: 1200.0
+ Sell price: 5000.0
+ Profit Margin(credits): 3800.00
+ Percentage profit margin: 316.67%
+-----
+Item Name: Coilgun II
+ Buy price: 1200.0
+ Sell price: 5000.0
+ Profit Margin(credits): 3800.00
+ Percentage profit margin: 316.67%
+-----
+Item Name: Cannon II
+ Buy price: 1200.0
+ Sell price: 5000.0
+ Profit Margin(credits): 3800.00
+ Percentage profit margin: 316.67%
+-----
+Item Name: Beam II
+ Buy price: 1200.0
+ Sell price: 4890.0
+ Profit Margin(credits): 3690.00
+ Percentage profit margin: 307.50%
+-----
+Item Name: Dread Reinforced Hull
+ Buy price: 50000.0
+ Sell price: 200000.0
+ Profit Margin(credits): 150000.00
+ Percentage profit margin: 300.00%
+-----
+Item Name: Hybrid Cannon-M blueprint
+ Buy price: 45000.0
+ Sell price: 177000.0
+ Profit Margin(credits): 132000.00
+ Percentage profit margin: 293.33%
+-----
+Item Name: Crate of Rare Ore
+ Buy price: 400.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1100.00
+ Percentage profit margin: 275.00%
+-----
+Item Name: Lightburner-S III
+ Buy price: 4000.0
+ Sell price: 14999.0
+ Profit Margin(credits): 10999.00
+ Percentage profit margin: 274.98%
+-----
+Item Name: Railgun II
+ Buy price: 1200.0
+ Sell price: 4480.0
+ Profit Margin(credits): 3280.00
+ Percentage profit margin: 273.33%
+-----
+Item Name: Red Narcor ore
+ Buy price: 685.0
+ Sell price: 2500.0
+ Profit Margin(credits): 1815.00
+ Percentage profit margin: 264.96%
+-----
+Item Name: Disruptor II
+ Buy price: 3555.0
+ Sell price: 12555.0
+ Profit Margin(credits): 9000.00
+ Percentage profit margin: 253.16%
+-----
+Item Name: Edict blueprint
+ Buy price: 10000.0
+ Sell price: 35000.0
+ Profit Margin(credits): 25000.00
+ Percentage profit margin: 250.00%
+-----
+Item Name: Lightburner-L III
+ Buy price: 7000.0
+ Sell price: 23994.0
+ Profit Margin(credits): 16994.00
+ Percentage profit margin: 242.77%
+-----
+Item Name: Ice Miner II
+ Buy price: 9081.0
+ Sell price: 29999.0
+ Profit Margin(credits): 20918.00
+ Percentage profit margin: 230.35%
+-----
+Item Name: Hybrid Cannon-M
+ Buy price: 111111.0
+ Sell price: 350000.0
+ Profit Margin(credits): 238889.00
+ Percentage profit margin: 215.00%
+-----
+Item Name: Coilgun I
+ Buy price: 436.0
+ Sell price: 1369.0
+ Profit Margin(credits): 933.00
+ Percentage profit margin: 213.99%
+-----
+Item Name: Cannon I
+ Buy price: 436.0
+ Sell price: 1369.0
+ Profit Margin(credits): 933.00
+ Percentage profit margin: 213.99%
+-----
+Item Name: Lycentian Mission Log
+ Buy price: 1608.0
+ Sell price: 5000.0
+ Profit Margin(credits): 3392.00
+ Percentage profit margin: 210.95%
+-----
+Item Name: Precision Miner I
+ Buy price: 5000.0
+ Sell price: 15500.0
+ Profit Margin(credits): 10500.00
+ Percentage profit margin: 210.00%
+-----
+Item Name: Drone command core
+ Buy price: 780.0
+ Sell price: 2399.0
+ Profit Margin(credits): 1619.00
+ Percentage profit margin: 207.56%
+-----
+Item Name: Railgun III
+ Buy price: 5000.0
+ Sell price: 15000.0
+ Profit Margin(credits): 10000.00
+ Percentage profit margin: 200.00%
+-----
+Item Name: Virtue blueprint
+ Buy price: 20000.0
+ Sell price: 59999.0
+ Profit Margin(credits): 39999.00
+ Percentage profit margin: 200.00%
+-----
+Item Name: Strip Miner I
+ Buy price: 5000.0
+ Sell price: 14999.0
+ Profit Margin(credits): 9999.00
+ Percentage profit margin: 199.98%
+-----
+Item Name: Ice Miner I
+ Buy price: 5000.0
+ Sell price: 14999.0
+ Profit Margin(credits): 9999.00
+ Percentage profit margin: 199.98%
+-----
+Item Name: Shroud
+ Buy price: 135000.0
+ Sell price: 399998.0
+ Profit Margin(credits): 264998.00
+ Percentage profit margin: 196.29%
+-----
+Item Name: Ancient Coilgun
+ Buy price: 7001.0
+ Sell price: 20000.0
+ Profit Margin(credits): 12999.00
+ Percentage profit margin: 185.67%
+-----
+Item Name: Flak III
+ Buy price: 5000.0
+ Sell price: 13999.0
+ Profit Margin(credits): 8999.00
+ Percentage profit margin: 179.98%
+-----
+Item Name: Dread Energy Booster
+ Buy price: 90000.0
+ Sell price: 249999.0
+ Profit Margin(credits): 159999.00
+ Percentage profit margin: 177.78%
+-----
+Item Name: Precision Miner II blueprint
+ Buy price: 4500.0
+ Sell price: 12497.0
+ Profit Margin(credits): 7997.00
+ Percentage profit margin: 177.71%
+-----
+Item Name: Axnit
+ Buy price: 14.1
+ Sell price: 38.55
+ Profit Margin(credits): 24.45
+ Percentage profit margin: 173.40%
+-----
+Item Name: Hybrid Blaster
+ Buy price: 30000.0
+ Sell price: 82000.0
+ Profit Margin(credits): 52000.00
+ Percentage profit margin: 173.33%
+-----
+Item Name: Hybrid Blaster-M blueprint
+ Buy price: 69000.0
+ Sell price: 175000.0
+ Profit Margin(credits): 106000.00
+ Percentage profit margin: 153.62%
+-----
+Item Name: Barracuda
+ Buy price: 100000.0
+ Sell price: 250000.0
+ Profit Margin(credits): 150000.00
+ Percentage profit margin: 150.00%
+-----
+Item Name: Hybrid Overclocker
+ Buy price: 20000.0
+ Sell price: 50000.0
+ Profit Margin(credits): 30000.00
+ Percentage profit margin: 150.00%
+-----
+Item Name: Hybrid Battery
+ Buy price: 40000.0
+ Sell price: 100000.0
+ Profit Margin(credits): 60000.00
+ Percentage profit margin: 150.00%
+-----
+Item Name: Shroud blueprint
+ Buy price: 10000.0
+ Sell price: 25000.0
+ Profit Margin(credits): 15000.00
+ Percentage profit margin: 150.00%
+-----
+Item Name: Hybrid Disruptor
+ Buy price: 20000.0
+ Sell price: 49999.0
+ Profit Margin(credits): 29999.00
+ Percentage profit margin: 150.00%
+-----
+Item Name: Hybrid Claymore
+ Buy price: 130100.0
+ Sell price: 319999.0
+ Profit Margin(credits): 189899.00
+ Percentage profit margin: 145.96%
+-----
+Item Name: Water
+ Buy price: 63.05
+ Sell price: 154.0
+ Profit Margin(credits): 90.95
+ Percentage profit margin: 144.25%
+-----
+Item Name: Hybrid Polaris
+ Buy price: 150000.0
+ Sell price: 365000.0
+ Profit Margin(credits): 215000.00
+ Percentage profit margin: 143.33%
+-----
+Item Name: Hybrid Heavy Bolt
+ Buy price: 35000.0
+ Sell price: 85000.0
+ Profit Margin(credits): 50000.00
+ Percentage profit margin: 142.86%
+-----
+Item Name: Precision Miner II
+ Buy price: 13000.0
+ Sell price: 31000.0
+ Profit Margin(credits): 18000.00
+ Percentage profit margin: 138.46%
+-----
+Item Name: Dread Warp Field Amplifier
+ Buy price: 50000.0
+ Sell price: 116650.0
+ Profit Margin(credits): 66650.00
+ Percentage profit margin: 133.30%
+-----
+Item Name: Virtue
+ Buy price: 95000.0
+ Sell price: 220000.0
+ Profit Margin(credits): 125000.00
+ Percentage profit margin: 131.58%
+-----
+Item Name: Ancient Lightburner-M
+ Buy price: 42500.0
+ Sell price: 98000.0
+ Profit Margin(credits): 55500.00
+ Percentage profit margin: 130.59%
+-----
+Item Name: Hybrid Claymore blueprint
+ Buy price: 78000.0
+ Sell price: 174500.0
+ Profit Margin(credits): 96500.00
+ Percentage profit margin: 123.72%
+-----
+Item Name: Ultralight Chassis III
+ Buy price: 9000.0
+ Sell price: 19999.0
+ Profit Margin(credits): 10999.00
+ Percentage profit margin: 122.21%
+-----
+Item Name: Crate of Exotic Goods
+ Buy price: 1351.0
+ Sell price: 3000.0
+ Profit Margin(credits): 1649.00
+ Percentage profit margin: 122.06%
+-----
+Item Name: Hybrid Polaris blueprint
+ Buy price: 110101.0
+ Sell price: 244000.0
+ Profit Margin(credits): 133899.00
+ Percentage profit margin: 121.61%
+-----
+Item Name: Dread Heavy Hull Repairer
+ Buy price: 280000.0
+ Sell price: 620200.0
+ Profit Margin(credits): 340200.00
+ Percentage profit margin: 121.50%
+-----
+Item Name: Loxodon blueprint
+ Buy price: 92000.0
+ Sell price: 199999.0
+ Profit Margin(credits): 107999.00
+ Percentage profit margin: 117.39%
+-----
+Item Name: Hybrid Hardlight Shields
+ Buy price: 30000.0
+ Sell price: 62750.0
+ Profit Margin(credits): 32750.00
+ Percentage profit margin: 109.17%
+-----
+Item Name: Hybrid Luminar
+ Buy price: 120000.0
+ Sell price: 250000.0
+ Profit Margin(credits): 130000.00
+ Percentage profit margin: 108.33%
+-----
+Item Name: Firework (snowflake)
+ Buy price: 2500.0
+ Sell price: 5000.0
+ Profit Margin(credits): 2500.00
+ Percentage profit margin: 100.00%
+-----
+Item Name: Radix
+ Buy price: 20000.0
+ Sell price: 40000.0
+ Profit Margin(credits): 20000.00
+ Percentage profit margin: 100.00%
+-----
+Item Name: Knifejaw
+ Buy price: 35000.0
+ Sell price: 69998.0
+ Profit Margin(credits): 34998.00
+ Percentage profit margin: 99.99%
+-----
+Item Name: Phalanx
+ Buy price: 111000.0
+ Sell price: 220000.0
+ Profit Margin(credits): 109000.00
+ Percentage profit margin: 98.20%
+-----
+Item Name: Contraband weapons
+ Buy price: 758.0
+ Sell price: 1500.0
+ Profit Margin(credits): 742.00
+ Percentage profit margin: 97.89%
+-----
+Item Name: Hybrid Luminar blueprint
+ Buy price: 60000.0
+ Sell price: 118000.0
+ Profit Margin(credits): 58000.00
+ Percentage profit margin: 96.67%
+-----
+Item Name: Halo
+ Buy price: 95000.0
+ Sell price: 185000.0
+ Profit Margin(credits): 90000.00
+ Percentage profit margin: 94.74%
+-----
+Item Name: Hybrid Paragon blueprint
+ Buy price: 151151.0
+ Sell price: 293500.0
+ Profit Margin(credits): 142349.00
+ Percentage profit margin: 94.18%
+-----
+Item Name: Stolen artifacts
+ Buy price: 1051.0
+ Sell price: 2008.0
+ Profit Margin(credits): 957.00
+ Percentage profit margin: 91.06%
+-----
+Item Name: Conciliator blueprint
+ Buy price: 101000.0
+ Sell price: 189999.0
+ Profit Margin(credits): 88999.00
+ Percentage profit margin: 88.12%
+-----
+Item Name: Dread Ultralight Chassis
+ Buy price: 16000.0
+ Sell price: 30000.0
+ Profit Margin(credits): 14000.00
+ Percentage profit margin: 87.50%
+-----
+Item Name: Ancient Railgun-M
+ Buy price: 7000.0
+ Sell price: 12999.0
+ Profit Margin(credits): 5999.00
+ Percentage profit margin: 85.70%
+-----
+Item Name: Hybrid Parallel Circuits
+ Buy price: 85000.0
+ Sell price: 150000.0
+ Profit Margin(credits): 65000.00
+ Percentage profit margin: 76.47%
+-----
+Item Name: Reknite
+ Buy price: 4.6
+ Sell price: 8.0
+ Profit Margin(credits): 3.40
+ Percentage profit margin: 73.91%
+-----
+Item Name: Metal scraps
+ Buy price: 4.6
+ Sell price: 7.95
+ Profit Margin(credits): 3.35
+ Percentage profit margin: 72.83%
+-----
+Item Name: Hybrid Paragon
+ Buy price: 220000.0
+ Sell price: 379990.0
+ Profit Margin(credits): 159990.00
+ Percentage profit margin: 72.72%
+-----
+Item Name: Hybrid Blaster-M
+ Buy price: 140000.0
+ Sell price: 239000.0
+ Profit Margin(credits): 99000.00
+ Percentage profit margin: 70.71%
+-----
+Item Name: Hybrid Heavy Shield Repairer
+ Buy price: 76000.0
+ Sell price: 128999.0
+ Profit Margin(credits): 52999.00
+ Percentage profit margin: 69.74%
+-----
+Item Name: Ancient Lightburner-L
+ Buy price: 160000.0
+ Sell price: 269000.0
+ Profit Margin(credits): 109000.00
+ Percentage profit margin: 68.13%
+-----
+Item Name: Galaxy
+ Buy price: 150000.0
+ Sell price: 250000.0
+ Profit Margin(credits): 100000.00
+ Percentage profit margin: 66.67%
+-----
+Item Name: Piranha blueprint
+ Buy price: 2000.0
+ Sell price: 3259.0
+ Profit Margin(credits): 1259.00
+ Percentage profit margin: 62.95%
+-----
+Item Name: Power cell
+ Buy price: 15.05
+ Sell price: 24.5
+ Profit Margin(credits): 9.45
+ Percentage profit margin: 62.79%
+-----
+Item Name: Horizon
+ Buy price: 400000.0
+ Sell price: 649999.0
+ Profit Margin(credits): 249999.00
+ Percentage profit margin: 62.50%
+-----
+Item Name: Korrelite ore
+ Buy price: 10.5
+ Sell price: 17.0
+ Profit Margin(credits): 6.50
+ Percentage profit margin: 61.90%
+-----
+Item Name: Edict
+ Buy price: 43500.0
+ Sell price: 68000.0
+ Profit Margin(credits): 24500.00
+ Percentage profit margin: 56.32%
+-----
+Item Name: Zubron
+ Buy price: 40000.0
+ Sell price: 62000.0
+ Profit Margin(credits): 22000.00
+ Percentage profit margin: 55.00%
+-----
+Item Name: Narcor
+ Buy price: 26.05
+ Sell price: 40.0
+ Profit Margin(credits): 13.95
+ Percentage profit margin: 53.55%
+-----
+Item Name: Justice blueprint
+ Buy price: 60000.0
+ Sell price: 91999.0
+ Profit Margin(credits): 31999.00
+ Percentage profit margin: 53.33%
+-----
+Item Name: Kodiak
+ Buy price: 190000.0
+ Sell price: 288000.0
+ Profit Margin(credits): 98000.00
+ Percentage profit margin: 51.58%
+-----
+Item Name: Strip Miner II
+ Buy price: 18000.0
+ Sell price: 27000.0
+ Profit Margin(credits): 9000.00
+ Percentage profit margin: 50.00%
+-----
+Item Name: Liberty
+ Buy price: 30000.0
+ Sell price: 44990.0
+ Profit Margin(credits): 14990.00
+ Percentage profit margin: 49.97%
+-----
+Item Name: Vexnium ore
+ Buy price: 2675.0
+ Sell price: 3998.0
+ Profit Margin(credits): 1323.00
+ Percentage profit margin: 49.46%
+-----
+Item Name: Strip Miner II blueprint
+ Buy price: 7500.0
+ Sell price: 10999.0
+ Profit Margin(credits): 3499.00
+ Percentage profit margin: 46.65%
+-----
+Item Name: Gellium
+ Buy price: 5.75
+ Sell price: 8.4
+ Profit Margin(credits): 2.65
+ Percentage profit margin: 46.09%
+-----
+Item Name: Ozark
+ Buy price: 48000.0
+ Sell price: 69000.0
+ Profit Margin(credits): 21000.00
+ Percentage profit margin: 43.75%
+-----
+Item Name: Justice
+ Buy price: 530300.0
+ Sell price: 733000.0
+ Profit Margin(credits): 202700.00
+ Percentage profit margin: 38.22%
+-----
+Item Name: Tetra blueprint
+ Buy price: 2500.0
+ Sell price: 3449.0
+ Profit Margin(credits): 949.00
+ Percentage profit margin: 37.96%
+-----
+Item Name: Echelon
+ Buy price: 600001.0
+ Sell price: 820200.0
+ Profit Margin(credits): 220199.00
+ Percentage profit margin: 36.70%
+-----
+Item Name: Judicator
+ Buy price: 185100.0
+ Sell price: 250000.0
+ Profit Margin(credits): 64900.00
+ Percentage profit margin: 35.06%
+-----
+Item Name: Red Narcor
+ Buy price: 651.0
+ Sell price: 874.0
+ Profit Margin(credits): 223.00
+ Percentage profit margin: 34.25%
+-----
+Item Name: Chevron
+ Buy price: 30000.0
+ Sell price: 39999.0
+ Profit Margin(credits): 9999.00
+ Percentage profit margin: 33.33%
+-----
+Item Name: Axnit ore
+ Buy price: 35.0
+ Sell price: 45.0
+ Profit Margin(credits): 10.00
+ Percentage profit margin: 28.57%
+-----
+Item Name: Stasis Field III
+ Buy price: 10002.0
+ Sell price: 12500.0
+ Profit Margin(credits): 2498.00
+ Percentage profit margin: 24.98%
+-----
+Item Name: Loxodon
+ Buy price: 540300.0
+ Sell price: 674888.0
+ Profit Margin(credits): 134588.00
+ Percentage profit margin: 24.91%
+-----
+Item Name: Korrelite
+ Buy price: 7.05
+ Sell price: 8.45
+ Profit Margin(credits): 1.40
+ Percentage profit margin: 19.86%
+-----
+Item Name: Vexnium
+ Buy price: 2503.0
+ Sell price: 3000.0
+ Profit Margin(credits): 497.00
+ Percentage profit margin: 19.86%
+-----
+Item Name: Yukon
+ Buy price: 671200.0
+ Sell price: 795000.0
+ Profit Margin(credits): 123800.00
+ Percentage profit margin: 18.44%
+-----
+Item Name: Conciliator
+ Buy price: 611300.0
+ Sell price: 699799.0
+ Profit Margin(credits): 88499.00
+ Percentage profit margin: 14.48%
+-----
+Item Name: Infinity
+ Buy price: -1.0
+ Sell price: 75000.0
+ Profit Margin(credits): 75001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Foralkan Targeter I
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blink Drive III
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Beam III
+ Buy price: 5000.0
+ Sell price: -1.0
+ Profit Margin(credits): -5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Reflective Panels
+ Buy price: -1.0
+ Sell price: 25000.0
+ Profit Margin(credits): 25001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Cannon-M III
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Ozark)
+ Buy price: -1.0
+ Sell price: 2999999.0
+ Profit Margin(credits): 3000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Reflective Plating
+ Buy price: -1.0
+ Sell price: 42000.0
+ Profit Margin(credits): 42001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hornbill blueprint
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Banner (Foralkan)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Marine Legs
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rogue Helmet
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Charger III
+ Buy price: -1.0
+ Sell price: 38000.0
+ Profit Margin(credits): 38001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lightweight Engines III
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hyper G1
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (CoreSec)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Astero
+ Buy price: -1.0
+ Sell price: 55000.0
+ Profit Margin(credits): 55001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Luster
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Enhanced Deflectors
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Nero Helmet
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Mako
+ Buy price: -1.0
+ Sell price: 11000.0
+ Profit Margin(credits): 11001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Hull Repairer I
+ Buy price: -1.0
+ Sell price: 900.0
+ Profit Margin(credits): 901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Railgun
+ Buy price: -1.0
+ Sell price: 19999.0
+ Profit Margin(credits): 20000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Battery I
+ Buy price: -1.0
+ Sell price: 700.0
+ Profit Margin(credits): 701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Railgun-M II
+ Buy price: -1.0
+ Sell price: 9000.0
+ Profit Margin(credits): 9001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient drone core
+ Buy price: -1.0
+ Sell price: 19800.0
+ Profit Margin(credits): 19801.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Field Amplifier II
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Railgun-M
+ Buy price: -1.0
+ Sell price: 49500.0
+ Profit Margin(credits): 49501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Marlin
+ Buy price: -1.0
+ Sell price: 1997.0
+ Profit Margin(credits): 1998.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Coilgun III
+ Buy price: 5000.0
+ Sell price: -1.0
+ Profit Margin(credits): -5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Coilgun-M III
+ Buy price: -1.0
+ Sell price: 9999999.0
+ Profit Margin(credits): 10000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Disruptor III
+ Buy price: -1.0
+ Sell price: 78000.0
+ Profit Margin(credits): 78001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Falcon
+ Buy price: -1.0
+ Sell price: 3499.0
+ Profit Margin(credits): 3500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Templar Helmet
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Marine Helmet
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Nullifier Rounds
+ Buy price: -1.0
+ Sell price: 100000.0
+ Profit Margin(credits): 100001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Eos blueprint
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Polaris
+ Buy price: -1.0
+ Sell price: 9500.0
+ Profit Margin(credits): 9501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hull Booster II
+ Buy price: -1.0
+ Sell price: 14000.0
+ Profit Margin(credits): 14001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reinforced Hull III
+ Buy price: -1.0
+ Sell price: 35180.0
+ Profit Margin(credits): 35181.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Coilgun-M
+ Buy price: -1.0
+ Sell price: 29000.0
+ Profit Margin(credits): 29001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Houseplant
+ Buy price: -1.0
+ Sell price: 200200.0
+ Profit Margin(credits): 200201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Adamant
+ Buy price: -1.0
+ Sell price: 150000.0
+ Profit Margin(credits): 150001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Engine Gimbals
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Halo)
+ Buy price: -1.0
+ Sell price: 1100000.0
+ Profit Margin(credits): 1100001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Eos
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Beam-M III
+ Buy price: -1.0
+ Sell price: 27000.0
+ Profit Margin(credits): 27001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Railgun-M blueprint
+ Buy price: -1.0
+ Sell price: 7198.0
+ Profit Margin(credits): 7199.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rapid Bolt I
+ Buy price: -1.0
+ Sell price: 699.0
+ Profit Margin(credits): 700.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blaster-M III
+ Buy price: -1.0
+ Sell price: 57999.0
+ Profit Margin(credits): 58000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Light Armor Booster
+ Buy price: -1.0
+ Sell price: 275000.0
+ Profit Margin(credits): 275001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Shield Repairer I
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Battery II
+ Buy price: -1.0
+ Sell price: 2934.0
+ Profit Margin(credits): 2935.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Endtable
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Luminar
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Drone core
+ Buy price: -1.0
+ Sell price: 99.0
+ Profit Margin(credits): 100.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Koronis blueprint
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Servo Surge III
+ Buy price: -1.0
+ Sell price: 10580.0
+ Profit Margin(credits): 10581.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Blink Drive
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lycentian Targeter I
+ Buy price: -1.0
+ Sell price: 700.0
+ Profit Margin(credits): 701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Parallel Circuits III
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Enhanced Servos
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Shrapnel
+ Buy price: -1.0
+ Sell price: 38000.0
+ Profit Margin(credits): 38001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Railgun I
+ Buy price: -1.0
+ Sell price: 1963.0
+ Profit Margin(credits): 1964.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heat Sink II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reinforced Hull II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Heavy Sensor Janmer
+ Buy price: -1.0
+ Sell price: 599999.0
+ Profit Margin(credits): 600000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Bison
+ Buy price: -1.0
+ Sell price: 17000.0
+ Profit Margin(credits): 17001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Battery III
+ Buy price: -1.0
+ Sell price: 19999.0
+ Profit Margin(credits): 20000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Beam-M II
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Miner I
+ Buy price: -1.0
+ Sell price: 1369.0
+ Profit Margin(credits): 1370.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lightweight Engines II
+ Buy price: -1.0
+ Sell price: 3799.0
+ Profit Margin(credits): 3800.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Patcher Nanobots III
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Heavy Armor Booster
+ Buy price: 10000.0
+ Sell price: -1.0
+ Profit Margin(credits): -10001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Edict)
+ Buy price: -1.0
+ Sell price: 999999.0
+ Profit Margin(credits): 1000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Lightweight Engines
+ Buy price: -1.0
+ Sell price: 44999.0
+ Profit Margin(credits): 45000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (CoreSec)
+ Buy price: -1.0
+ Sell price: 108.0
+ Profit Margin(credits): 109.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Marine Torso
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Shield Repairer II
+ Buy price: -1.0
+ Sell price: 31980.0
+ Profit Margin(credits): 31981.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Veil
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Badger
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Overdrive-M
+ Buy price: -1.0
+ Sell price: 44565.0
+ Profit Margin(credits): 44566.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Drone Targeter II
+ Buy price: -1.0
+ Sell price: 1750.0
+ Profit Margin(credits): 1751.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Knifejaw blueprint
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Aurora
+ Buy price: -1.0
+ Sell price: 2998.0
+ Profit Margin(credits): 2999.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Syndicate)
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Yuma
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Paragon)
+ Buy price: -1.0
+ Sell price: 7.5E7
+ Profit Margin(credits): 75000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Kodiak)
+ Buy price: -1.0
+ Sell price: 7999999.0
+ Profit Margin(credits): 8000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blaster I
+ Buy price: -1.0
+ Sell price: 1555.0
+ Profit Margin(credits): 1556.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Barracuda)
+ Buy price: -1.0
+ Sell price: 7.6E7
+ Profit Margin(credits): 76000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Astero blueprint
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Jockey Legs
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Ion blueprint
+ Buy price: -1.0
+ Sell price: 75000.0
+ Profit Margin(credits): 75001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Shield Repairer III
+ Buy price: -1.0
+ Sell price: 77000.0
+ Profit Margin(credits): 77001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Banner (Trade Union)
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Hull Repairer III
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rogue Legs
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blaster III
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion III
+ Buy price: 6500.0
+ Sell price: -1.0
+ Profit Margin(credits): -6501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Overdrive-L
+ Buy price: -1.0
+ Sell price: 69999.0
+ Profit Margin(credits): 70000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Snowball
+ Buy price: -1.0
+ Sell price: 999999.0
+ Profit Margin(credits): 1000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Double rounded bed
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hyper X9
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Stratos)
+ Buy price: -1.0
+ Sell price: 9.9999999E7
+ Profit Margin(credits): 100000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Radix)
+ Buy price: -1.0
+ Sell price: 6.7E8
+ Profit Margin(credits): 670000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shadow Helmet
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Shield Repairer II
+ Buy price: -1.0
+ Sell price: 3630.0
+ Profit Margin(credits): 3631.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Charger II
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Cannon blueprint
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Deflectors I
+ Buy price: -1.0
+ Sell price: 800.0
+ Profit Margin(credits): 801.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Nero Torso
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Zubron)
+ Buy price: -1.0
+ Sell price: 1499999.0
+ Profit Margin(credits): 1500000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Amplifier III
+ Buy price: -1.0
+ Sell price: 36999.0
+ Profit Margin(credits): 37000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blink Drive II
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Medium Armor Booster
+ Buy price: -1.0
+ Sell price: 180000.0
+ Profit Margin(credits): 180001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lucent blueprint
+ Buy price: -1.0
+ Sell price: 4500.0
+ Profit Margin(credits): 4501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hardlight Shields III
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Ion Rounds
+ Buy price: -1.0
+ Sell price: 3500.0
+ Profit Margin(credits): 3501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Macaw
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Booster III
+ Buy price: -1.0
+ Sell price: 36999.0
+ Profit Margin(credits): 37000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Stasis Field
+ Buy price: -1.0
+ Sell price: 66000.0
+ Profit Margin(credits): 66001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Thresher blueprint
+ Buy price: -1.0
+ Sell price: 14999.0
+ Profit Margin(credits): 15000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warden Legs
+ Buy price: -1.0
+ Sell price: 758.0
+ Profit Margin(credits): 759.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Rapid Bolt
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Jockey Helmet
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Parallel Circuits II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Kavani Targeter I
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overdrive-M III
+ Buy price: -1.0
+ Sell price: 27500.0
+ Profit Margin(credits): 27501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Jockey Torso
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Bulwark
+ Buy price: -1.0
+ Sell price: 680000.0
+ Profit Margin(credits): 680001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Spacemine I
+ Buy price: -1.0
+ Sell price: 100.0
+ Profit Margin(credits): 101.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blaster-M I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: CoreSec Targeter I
+ Buy price: -1.0
+ Sell price: 5999.0
+ Profit Margin(credits): 6000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shrapnel II
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Nero Legs
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Sensor Janmer
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blaster-M II
+ Buy price: -1.0
+ Sell price: 19999.0
+ Profit Margin(credits): 20000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Disruptor I
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Firework
+ Buy price: -1.0
+ Sell price: 17140.0
+ Profit Margin(credits): 17141.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Fortitude
+ Buy price: -1.0
+ Sell price: 799999.0
+ Profit Margin(credits): 800000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Swift Bolt III
+ Buy price: -1.0
+ Sell price: 49999.0
+ Profit Margin(credits): 50000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spaceship Parts
+ Buy price: -1.0
+ Sell price: 1000000.0
+ Profit Margin(credits): 1000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Claymore)
+ Buy price: -1.0
+ Sell price: 2.0E7
+ Profit Margin(credits): 20000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Polaris)
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Curved bench
+ Buy price: -1.0
+ Sell price: 700.0
+ Profit Margin(credits): 701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Paragon
+ Buy price: -1.0
+ Sell price: 8999.0
+ Profit Margin(credits): 9000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Heat Sink
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Drone Targeter I
+ Buy price: -1.0
+ Sell price: 9984.0
+ Profit Margin(credits): 9985.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Lightburner-S
+ Buy price: -1.0
+ Sell price: 28900.0
+ Profit Margin(credits): 28901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Coilgun blueprint
+ Buy price: -1.0
+ Sell price: 6000.0
+ Profit Margin(credits): 6001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Crystal shard
+ Buy price: -1.0
+ Sell price: 44000.0
+ Profit Margin(credits): 44001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Smoke I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Virtue)
+ Buy price: -1.0
+ Sell price: 7600000.0
+ Profit Margin(credits): 7600001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Light Sensor Janmer
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread AP Rounds
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holoprojector (Foralkan)
+ Buy price: -1.0
+ Sell price: 9999999.0
+ Profit Margin(credits): 10000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Lycentian Admiral)
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Tetra
+ Buy price: -1.0
+ Sell price: 14999.0
+ Profit Margin(credits): 15000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Hull Repairer II
+ Buy price: -1.0
+ Sell price: 26990.0
+ Profit Margin(credits): 26991.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Water ice
+ Buy price: -1.0
+ Sell price: 80.0
+ Profit Margin(credits): 81.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Disintegrex
+ Buy price: -1.0
+ Sell price: 23999.0
+ Profit Margin(credits): 24000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: LG0-T
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reinforced Hull I
+ Buy price: -1.0
+ Sell price: 1250.0
+ Profit Margin(credits): 1251.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Cannon
+ Buy price: -1.0
+ Sell price: 55000.0
+ Profit Margin(credits): 55001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Ion-M
+ Buy price: -1.0
+ Sell price: 199999.0
+ Profit Margin(credits): 200000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Poison I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Elite drone core
+ Buy price: -1.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Shield Booster
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warden Helmet
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Macaw blueprint
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Judicator blueprint
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Zenith
+ Buy price: -1.0
+ Sell price: 2494.0
+ Profit Margin(credits): 2495.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Sensor Booster
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Railgun blueprint
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Trila 3
+ Buy price: -1.0
+ Sell price: 7500.0
+ Profit Margin(credits): 7501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Display case
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Narcor ore
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Stand light
+ Buy price: -1.0
+ Sell price: 1499.0
+ Profit Margin(credits): 1500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Orin 377
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Luminar)
+ Buy price: -1.0
+ Sell price: 7.5E7
+ Profit Margin(credits): 75000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion II
+ Buy price: -1.0
+ Sell price: 4499.0
+ Profit Margin(credits): 4500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient HE Rounds
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Coilgun
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Overdrive-M
+ Buy price: -1.0
+ Sell price: 35000.0
+ Profit Margin(credits): 35001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Servos I
+ Buy price: -1.0
+ Sell price: 1200.0
+ Profit Margin(credits): 1201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: T-shirt
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Overclocker
+ Buy price: -1.0
+ Sell price: 47500.0
+ Profit Margin(credits): 47501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rapid Bolt III
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Afterburner-S
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rhino
+ Buy price: -1.0
+ Sell price: 7999.0
+ Profit Margin(credits): 8000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Servo Surge
+ Buy price: -1.0
+ Sell price: 99999.0
+ Profit Margin(credits): 100000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Explosive I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hardlight Shields II
+ Buy price: -1.0
+ Sell price: 3300.0
+ Profit Margin(credits): 3301.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Patcher Nanobots
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp disruptor I
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Kavani Insignia
+ Buy price: -1.0
+ Sell price: 1200.0
+ Profit Margin(credits): 1201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overclocker III
+ Buy price: -1.0
+ Sell price: 24000.0
+ Profit Margin(credits): 24001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shadow Legs
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Coilgun-M blueprint
+ Buy price: -1.0
+ Sell price: 25000.0
+ Profit Margin(credits): 25001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rogue Torso
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Fargo
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Syndicate)
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Field Amplifier III
+ Buy price: -1.0
+ Sell price: 79999.0
+ Profit Margin(credits): 80000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: RR-5000
+ Buy price: -1.0
+ Sell price: 14499.0
+ Profit Margin(credits): 14500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Parrot blueprint
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Christmas tree
+ Buy price: -1.0
+ Sell price: 24899.0
+ Profit Margin(credits): 24900.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Axnit (pristine)
+ Buy price: -1.0
+ Sell price: 108.0
+ Profit Margin(credits): 109.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Target Painter I
+ Buy price: -1.0
+ Sell price: 1777.0
+ Profit Margin(credits): 1778.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hyrax
+ Buy price: -1.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shadow Torso
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Adv drone core
+ Buy price: -1.0
+ Sell price: 350.0
+ Profit Margin(credits): 351.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Gellium ore
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ancient Fuel Injector
+ Buy price: -1.0
+ Sell price: 8400.0
+ Profit Margin(credits): 8401.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Barracuda blueprint
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Luster blueprint
+ Buy price: -1.0
+ Sell price: 108.0
+ Profit Margin(credits): 109.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Vesta blueprint
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Ion
+ Buy price: -1.0
+ Sell price: 12000.0
+ Profit Margin(credits): 12001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Shrapnel blueprint
+ Buy price: -1.0
+ Sell price: 6700.0
+ Profit Margin(credits): 6701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Cannon III
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Energy Booster II
+ Buy price: -1.0
+ Sell price: 24900.0
+ Profit Margin(credits): 24901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Claymore
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Galaxy blueprint
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Hull Repairer II
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heat Sink
+ Buy price: -1.0
+ Sell price: 9000.0
+ Profit Margin(credits): 9001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Swift Bolt
+ Buy price: -1.0
+ Sell price: 9000.0
+ Profit Margin(credits): 9001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Cannon-M II
+ Buy price: -1.0
+ Sell price: 6000.0
+ Profit Margin(credits): 6001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ultralight Chassis II
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Fuel
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Silver)
+ Buy price: -1.0
+ Sell price: 780200.0
+ Profit Margin(credits): 780201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged supplies
+ Buy price: -1.0
+ Sell price: 32000.0
+ Profit Margin(credits): 32001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Flak blueprint
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Eclipse Helmet
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Eclipse Legs
+ Buy price: -1.0
+ Sell price: 650.0
+ Profit Margin(credits): 651.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Engine Gimbals I
+ Buy price: -1.0
+ Sell price: 250.0
+ Profit Margin(credits): 251.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Engine Gimbals II
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Fuel Injector I
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Bolt II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holoprojector (Lycentian)
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hornbill
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hull Booster III
+ Buy price: -1.0
+ Sell price: 6000.0
+ Profit Margin(credits): 6001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hybrid Overdrive-L
+ Buy price: -1.0
+ Sell price: 50000.0
+ Profit Margin(credits): 50001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: LGS-T
+ Buy price: -1.0
+ Sell price: 1350.0
+ Profit Margin(credits): 1351.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Hull Repairer I
+ Buy price: -1.0
+ Sell price: 9999.0
+ Profit Margin(credits): 10000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Hull Repairer II
+ Buy price: -1.0
+ Sell price: 15990.0
+ Profit Margin(credits): 15991.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Sensor Jammer I
+ Buy price: -1.0
+ Sell price: 800.0
+ Profit Margin(credits): 801.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Shield Repairer I
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Shield Repairer II
+ Buy price: -1.0
+ Sell price: 17990.0
+ Profit Margin(credits): 17991.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Mackerel blueprint
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Nullifier Rounds I
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overclocker II
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Parallel Circuits I
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Patcher Nanobots I
+ Buy price: -1.0
+ Sell price: 7000.0
+ Profit Margin(credits): 7001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Patcher Nanobots II
+ Buy price: -1.0
+ Sell price: 2250.0
+ Profit Margin(credits): 2251.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Phoenix Helmet
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Phoenix Legs
+ Buy price: -1.0
+ Sell price: 310000.0
+ Profit Margin(credits): 310001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rapid Bolt II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reflective Plating III
+ Buy price: -1.0
+ Sell price: 6000.0
+ Profit Margin(credits): 6001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reknite (inferior)
+ Buy price: -1.0
+ Sell price: 4.0
+ Profit Margin(credits): 5.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Sensor Booster I
+ Buy price: -1.0
+ Sell price: 450.0
+ Profit Margin(credits): 451.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Amplifier II
+ Buy price: -1.0
+ Sell price: 2223.0
+ Profit Margin(credits): 2224.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Booster I
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shrapnel III
+ Buy price: -1.0
+ Sell price: 24000.0
+ Profit Margin(credits): 24001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Table
+ Buy price: -1.0
+ Sell price: 700.0
+ Profit Margin(credits): 701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Templar Torso
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Toucan blueprint
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Kavani)
+ Buy price: -1.0
+ Sell price: 108.0
+ Profit Margin(credits): 109.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Vesta
+ Buy price: -1.0
+ Sell price: 230000.0
+ Profit Margin(credits): 230001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Wall (long)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Charger I
+ Buy price: -1.0
+ Sell price: 799.0
+ Profit Margin(credits): 800.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Flak
+ Buy price: -1.0
+ Sell price: 165000.0
+ Profit Margin(credits): 165001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Flak I
+ Buy price: -1.0
+ Sell price: 2999.0
+ Profit Margin(credits): 3000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Afterburner-S III
+ Buy price: -1.0
+ Sell price: 29800.0
+ Profit Margin(credits): 29801.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Candiru
+ Buy price: -1.0
+ Sell price: 7500.0
+ Profit Margin(credits): 7501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Sabre
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: FG-88
+ Buy price: -1.0
+ Sell price: 7499.0
+ Profit Margin(credits): 7500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holoprojector (CoreSec)
+ Buy price: -1.0
+ Sell price: 900.0
+ Profit Margin(credits): 901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heat Sink I
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Swift Bolt I
+ Buy price: -1.0
+ Sell price: 1600.0
+ Profit Margin(credits): 1601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Parrot
+ Buy price: -1.0
+ Sell price: 29999.0
+ Profit Margin(credits): 30000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Koronis
+ Buy price: -1.0
+ Sell price: 9999.0
+ Profit Margin(credits): 10000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Cannon-M I
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overdrive-M II
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Shield Repairer III
+ Buy price: -1.0
+ Sell price: 22000.0
+ Profit Margin(credits): 22001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Composite Armor I
+ Buy price: -1.0
+ Sell price: 900.0
+ Profit Margin(credits): 901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion-M I
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Display shelf
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reknite ore
+ Buy price: -1.0
+ Sell price: 10.0
+ Profit Margin(credits): 11.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Orin 388
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lucent
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Triazo
+ Buy price: -1.0
+ Sell price: 3500.0
+ Profit Margin(credits): 3501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Coilgun-M II
+ Buy price: -1.0
+ Sell price: 14000.0
+ Profit Margin(credits): 14001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Bolt I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Hull Repairer III
+ Buy price: -1.0
+ Sell price: 40000.0
+ Profit Margin(credits): 40001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Stasis Field I
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lightweight Engines I
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reflective Plating II
+ Buy price: -1.0
+ Sell price: 8000.0
+ Profit Margin(credits): 8001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Sensor Jammer I
+ Buy price: -1.0
+ Sell price: 1300.0
+ Profit Margin(credits): 1301.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Afterburner-S I
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: HE Rounds I
+ Buy price: -1.0
+ Sell price: 1222.0
+ Profit Margin(credits): 1223.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reflective Plating I
+ Buy price: -1.0
+ Sell price: 1234.0
+ Profit Margin(credits): 1235.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holo plant
+ Buy price: -1.0
+ Sell price: 12999.0
+ Profit Margin(credits): 13000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hardlight Shields I
+ Buy price: -1.0
+ Sell price: 1400.0
+ Profit Margin(credits): 1401.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Railgun-M III
+ Buy price: -1.0
+ Sell price: 62000.0
+ Profit Margin(credits): 62001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Thresher
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: AP Rounds I
+ Buy price: -1.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Beam I
+ Buy price: -1.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Composite Armor III
+ Buy price: -1.0
+ Sell price: 7500.0
+ Profit Margin(credits): 7501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: HE Rounds II
+ Buy price: -1.0
+ Sell price: 2499.0
+ Profit Margin(credits): 2500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shrapnel I
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Swift Bolt II
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overdrive-L III
+ Buy price: -1.0
+ Sell price: 17000.0
+ Profit Margin(credits): 17001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Blue)
+ Buy price: -1.0
+ Sell price: 1000000.0
+ Profit Margin(credits): 1000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Dread Disruptor
+ Buy price: -1.0
+ Sell price: 150000.0
+ Profit Margin(credits): 150001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: H3-X
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Lycentian Targeter II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Shield Repairer I
+ Buy price: -1.0
+ Sell price: 1200.0
+ Profit Margin(credits): 1201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overdrive-L I
+ Buy price: -1.0
+ Sell price: 3500.0
+ Profit Margin(credits): 3501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Skeletonized Chassis II
+ Buy price: -1.0
+ Sell price: 2222.0
+ Profit Margin(credits): 2223.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Snowy tree
+ Buy price: -1.0
+ Sell price: 1300.0
+ Profit Margin(credits): 1301.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ultralight Chassis I
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Amplifier I
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp Field Amplifier I
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Blink Drive I
+ Buy price: -1.0
+ Sell price: 600.0
+ Profit Margin(credits): 601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reflective Panels I
+ Buy price: -1.0
+ Sell price: -1.0
+ Profit Margin(credits): 0.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Skeletonized Chassis I
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Lycentian)
+ Buy price: -1.0
+ Sell price: 999.0
+ Profit Margin(credits): 1000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Lycentian)
+ Buy price: -1.0
+ Sell price: 1000000.0
+ Profit Margin(credits): 1000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion-M II
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Prospector I
+ Buy price: -1.0
+ Sell price: 9.99999999E8
+ Profit Margin(credits): 1000000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Overdrive-L II
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hull Booster I
+ Buy price: -1.0
+ Sell price: 4999.0
+ Profit Margin(credits): 5000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Hyper G2
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Foralkan)
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Foralkan)
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Medium Hulll Repairer I
+ Buy price: -1.0
+ Sell price: 1500.0
+ Profit Margin(credits): 1501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Ruby)
+ Buy price: -1.0
+ Sell price: 3500.0
+ Profit Margin(credits): 3501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion I
+ Buy price: -1.0
+ Sell price: 1400.0
+ Profit Margin(credits): 1401.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Korrelite (pristine)
+ Buy price: -1.0
+ Sell price: 25.0
+ Profit Margin(credits): 26.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Banner (CoreSec)
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: LG9-T
+ Buy price: -1.0
+ Sell price: 4000.0
+ Profit Margin(credits): 4001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Mackerel
+ Buy price: -1.0
+ Sell price: 6000.0
+ Profit Margin(credits): 6001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Yellow)
+ Buy price: -1.0
+ Sell price: 699.0
+ Profit Margin(credits): 700.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Judicator)
+ Buy price: -1.0
+ Sell price: 2.0E7
+ Profit Margin(credits): 20000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warden Torso
+ Buy price: -1.0
+ Sell price: 2950.0
+ Profit Margin(credits): 2951.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Kavani Targeter II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Foralkan Targeter II
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: SSLB
+ Buy price: -1.0
+ Sell price: 4750.0
+ Profit Margin(credits): 4751.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Shield Booster II
+ Buy price: -1.0
+ Sell price: 7000.0
+ Profit Margin(credits): 7001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Trade Union)
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Trade Union)
+ Buy price: -1.0
+ Sell price: 4999.0
+ Profit Margin(credits): 5000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Piranha
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Exhaust Restrictor I
+ Buy price: -1.0
+ Sell price: 499.0
+ Profit Margin(credits): 500.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Gellium (superior)
+ Buy price: -1.0
+ Sell price: 27.0
+ Profit Margin(credits): 28.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Exhaust Restrictor III
+ Buy price: -1.0
+ Sell price: 27500.0
+ Profit Margin(credits): 27501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Knifejaw)
+ Buy price: -1.0
+ Sell price: 999999.0
+ Profit Margin(credits): 1000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Railgun-M I
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heavy Sensor Janmer I
+ Buy price: -1.0
+ Sell price: 8000.0
+ Profit Margin(credits): 8001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Purple)
+ Buy price: -1.0
+ Sell price: 100000.0
+ Profit Margin(credits): 100001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Gellium (pristine)
+ Buy price: -1.0
+ Sell price: 20.0
+ Profit Margin(credits): 21.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Dolphin)
+ Buy price: -1.0
+ Sell price: 2.99999999E8
+ Profit Margin(credits): 300000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Hull Repairer III
+ Buy price: -1.0
+ Sell price: 48999.0
+ Profit Margin(credits): 49000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Coilgun-M I
+ Buy price: -1.0
+ Sell price: 9990.0
+ Profit Margin(credits): 9991.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Counter
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Lycentian Admiral)
+ Buy price: -1.0
+ Sell price: 4500.0
+ Profit Margin(credits): 4501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Korrelite (superior)
+ Buy price: -1.0
+ Sell price: 8000200.0
+ Profit Margin(credits): 8000201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Heat Sink III
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Templar Legs
+ Buy price: -1.0
+ Sell price: 2300.0
+ Profit Margin(credits): 2301.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Wall
+ Buy price: -1.0
+ Sell price: 269.0
+ Profit Margin(credits): 270.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Servo Surge I
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Phalanx)
+ Buy price: -1.0
+ Sell price: 4999999.0
+ Profit Margin(credits): 5000000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Slab shelf
+ Buy price: -1.0
+ Sell price: 50.0
+ Profit Margin(credits): 51.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Kavani Marshal)
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Armchair
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Counter (bar)
+ Buy price: -1.0
+ Sell price: 900.0
+ Profit Margin(credits): 901.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Simple chair
+ Buy price: -1.0
+ Sell price: 1000000.0
+ Profit Margin(credits): 1000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Standing shelf
+ Buy price: -1.0
+ Sell price: 550.0
+ Profit Margin(credits): 551.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Deflectors III
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Toucan
+ Buy price: -1.0
+ Sell price: 1000.0
+ Profit Margin(credits): 1001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Kavani)
+ Buy price: -1.0
+ Sell price: 1000000.0
+ Profit Margin(credits): 1000001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holoprojector (Trade Union)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Simple bed
+ Buy price: -1.0
+ Sell price: 225.0
+ Profit Margin(credits): 226.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Box shelf
+ Buy price: -1.0
+ Sell price: 5000.0
+ Profit Margin(credits): 5001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Energy Booster I
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion Rounds III
+ Buy price: -1.0
+ Sell price: 15000.0
+ Profit Margin(credits): 15001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion Rounds I
+ Buy price: -1.0
+ Sell price: 777.0
+ Profit Margin(credits): 778.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Target Painter II
+ Buy price: -1.0
+ Sell price: 1700.0
+ Profit Margin(credits): 1701.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Amethyst)
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Afterburner-S II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ethereal (Liberty)
+ Buy price: -1.0
+ Sell price: 2700000.0
+ Profit Margin(credits): 2700001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Amber)
+ Buy price: -1.0
+ Sell price: 450.0
+ Profit Margin(credits): 451.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reflective Panels II
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Mining Guild)
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Mining Guild)
+ Buy price: -1.0
+ Sell price: 108.0
+ Profit Margin(credits): 109.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Beam-M I
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Triazo blueprint
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Orange)
+ Buy price: -1.0
+ Sell price: 198.0
+ Profit Margin(credits): 199.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Orin 399
+ Buy price: -1.0
+ Sell price: 2999.0
+ Profit Margin(credits): 3000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Gal-33
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Kavani Command)
+ Buy price: -1.0
+ Sell price: 260.0
+ Profit Margin(credits): 261.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Kavani Command)
+ Buy price: -1.0
+ Sell price: 270.0
+ Profit Margin(credits): 271.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Red)
+ Buy price: -1.0
+ Sell price: 180.0
+ Profit Margin(credits): 181.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Light Shield Repairer III
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Exhaust Restrictor II
+ Buy price: -1.0
+ Sell price: 2500.0
+ Profit Margin(credits): 2501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Fuel Injector II
+ Buy price: -1.0
+ Sell price: 2599.0
+ Profit Margin(credits): 2600.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Jasper)
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: AP Rounds II
+ Buy price: -1.0
+ Sell price: 3999.0
+ Profit Margin(credits): 4000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Damaged Spice (Sapphire)
+ Buy price: -1.0
+ Sell price: 4999.0
+ Profit Margin(credits): 5000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Couch (center)
+ Buy price: -1.0
+ Sell price: 15.0
+ Profit Margin(credits): 16.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Couch (left)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Couch (right)
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Sensor Booster II
+ Buy price: -1.0
+ Sell price: 3500.0
+ Profit Margin(credits): 3501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Skeletonized Chassis III
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Banner (Lycentian)
+ Buy price: -1.0
+ Sell price: 1234.0
+ Profit Margin(credits): 1235.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion Rounds II
+ Buy price: -1.0
+ Sell price: 800.0
+ Profit Margin(credits): 801.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Servos II
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Composite Armor II
+ Buy price: -1.0
+ Sell price: 9999.0
+ Profit Margin(credits): 10000.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Nullifier Rounds II
+ Buy price: -1.0
+ Sell price: 18000.0
+ Profit Margin(credits): 18001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Reknite (pristine)
+ Buy price: -1.0
+ Sell price: 19.0
+ Profit Margin(credits): 20.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Deflectors II
+ Buy price: -1.0
+ Sell price: 3000.0
+ Profit Margin(credits): 3001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Enhanced Servos III
+ Buy price: -1.0
+ Sell price: 30000.0
+ Profit Margin(credits): 30001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Ion-M III
+ Buy price: -1.0
+ Sell price: 62000.0
+ Profit Margin(credits): 62001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Foralkan Command)
+ Buy price: -1.0
+ Sell price: 28000.0
+ Profit Margin(credits): 28001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Foralkan Command)
+ Buy price: -1.0
+ Sell price: 3200.0
+ Profit Margin(credits): 3201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Curved chair
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Lycentian Command)
+ Buy price: -1.0
+ Sell price: 4987.0
+ Profit Margin(credits): 4988.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Pants (Foralkan Admiral)
+ Buy price: -1.0
+ Sell price: 100000.0
+ Profit Margin(credits): 100001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Uniform (Foralkan Admiral)
+ Buy price: -1.0
+ Sell price: 5200.0
+ Profit Margin(credits): 5201.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Holoprojector (Mining Guild)
+ Buy price: -1.0
+ Sell price: 500.0
+ Profit Margin(credits): 501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Rounded bed
+ Buy price: -1.0
+ Sell price: 1600.0
+ Profit Margin(credits): 1601.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Eclipse Torso
+ Buy price: -1.0
+ Sell price: 2000.0
+ Profit Margin(credits): 2001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Fuel Injector III
+ Buy price: -1.0
+ Sell price: 9000.0
+ Profit Margin(credits): 9001.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Sensor Booster III
+ Buy price: -1.0
+ Sell price: 15500.0
+ Profit Margin(credits): 15501.00
+ Percentage profit margin: 0.00%
+-----
+Item Name: Warp disruptor III
+ Buy price: 501.0
+ Sell price: 500.0
+ Profit Margin(credits): -1.00
+ Percentage profit margin: -0.20%
+-----
+Item Name: Ancient Railgun
+ Buy price: 7000.0
+ Sell price: 6700.0
+ Profit Margin(credits): -300.00
+ Percentage profit margin: -4.29%
