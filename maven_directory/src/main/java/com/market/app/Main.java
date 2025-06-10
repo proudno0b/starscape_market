@@ -19,9 +19,9 @@ class Main {
         //Util.writeStatsToFile(J);
         //System.out.println(J);
        // System.out.println(J.get("items").get("Horizon").get("buy").get(0).get("vendor").get("displayName").asText());
-       RealMarketItem gellium = sender.fetchRealMarketItem("Ancient Railgun");
-       Util.writeStatsToFile(Calculator.calculateMarketSpread(gellium));
-       //sender.fetchMarketData();
+       //RealMarketItem gellium = sender.fetchRealMarketItem("Ancient Railgun");
+       //Util.writeStatsToFile(Calculator.calculateMarketSpread(gellium));
+       sender.fetchMarketData();
 
 
     }

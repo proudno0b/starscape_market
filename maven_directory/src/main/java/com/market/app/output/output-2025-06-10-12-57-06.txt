@@ -1,0 +1,6 @@
+Item Name: Ancient Railgun
+ Buy price: 7000.0
+ Sell price: 6700.0
+ Profit Margin(credits): -300.00
+ Percentage profit margin: -4.29%
+-----
