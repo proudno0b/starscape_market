@@ -53,7 +53,7 @@ public class Util {
     }
     public static JsonNode toJsonNode(InputStream inputStream) {
         try {
-        return OBJECT_MAPPER.readValue(inputStream,JsonNode.class);
+            
         } catch (IOException e) {
             System.out.println("There was an error in the toJsonNode method in Util.java: " +e.getMessage());
         }
@@ -237,9 +237,6 @@ public static double getSellOrderPrice(JsonNode real_item,String itemName) {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-    }
-    public static void getMarket() {
 
     }
     public static FlatItemStatistics toFlat(ItemStatistics itemStats) {

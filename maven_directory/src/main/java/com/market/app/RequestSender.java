@@ -114,9 +114,9 @@ public class RequestSender {
         long before = System.currentTimeMillis();
 
         if (useCache) {
-            System.out.println("successfully wrote data from cache");
-        } else {
-            try {
+                System.out.println("successfully wrote data from cache");
+            } else {
+                try {
                 HttpClient client = HttpClient.newHttpClient();
 
                 HttpRequest request = HttpRequest.newBuilder()
