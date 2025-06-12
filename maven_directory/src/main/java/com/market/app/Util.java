@@ -53,8 +53,9 @@ public class Util {
     }
     public static JsonNode toJsonNode(InputStream inputStream) {
         try {
+            return OBJECT_MAPPER.readValue(inputStream,JsonNode.class)
             
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("There was an error in the toJsonNode method in Util.java: " +e.getMessage());
         }
         return null;
